@@ -1,15 +1,33 @@
-# Arduino_VBLUno_nRF51822
+# VBLUno_nRF51822 - Arduino
 These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
+
+
+ 
+#Requirements
+
+1. Python 2.7. Select 32bit version at https://www.python.org/downloads/release/python-2712/
+
+2. Tool pc-nrfutil-0.3.0: https://github.com/NordicSemiconductor/pc-nrfutil/releases/tag/v0.3.0
+To install, please see readme.md and requirement.txt in that package
+
+#Install Board Package Add-on
+
+1. Get Arduino IDE from Arduino website and install it to your PC
+           http://arduino.cc/en/Main/Software
+
+2. Start the IDE and from the Menu, click "Preference...", add the following line to "Additional Boards Manager URLs"
+           https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_index.json
+
+3. Install the "VNGIoTLab nRF51822 Boards" add-on via Boards Manager from the Menu: Tools -> Board -> Boards Manager ...
+
+
+
+Thanks RedBearLab.
 
 Links:
 - http://iotviet.com.vn/store/detail?id=2
 - https://www.facebook.com/bleviet/?fref=ts
 - https://www.facebook.com/iotviet.vn/?fref=ts
- 
-User manual:
-
-
-Thanks RedBearLab.
 
 Copyright (c) 2016 VNGIoTLab
  *

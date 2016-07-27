@@ -5,3 +5,7 @@ Links:
 - http://iotviet.com.vn/store/detail?id=2
 - https://www.facebook.com/bleviet/?fref=ts
 - https://www.facebook.com/iotviet.vn/?fref=ts
+ 
+User manual:
+
+

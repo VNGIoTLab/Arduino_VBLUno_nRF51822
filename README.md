@@ -7,8 +7,8 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
 1. Kit VBLUno nRF51822 (http://iotviet.com.vn/store/detail?id=2)
 
-  Nordic nRF51822 with Cortex-M0 32bit CPU
-  Bluetooth Low Energy interface
+  * Nordic nRF51822 with Cortex-M0 32bit CPU
+  * Bluetooth Low Energy interface
   Compatible Arduino Uno pinout 
   I2C, UART, SWD, 30 GPIOs
   256KB Rom

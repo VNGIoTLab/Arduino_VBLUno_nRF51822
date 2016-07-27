@@ -9,12 +9,12 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
   * Nordic nRF51822 with Cortex-M0 32bit CPU
   * Bluetooth Low Energy interface
-  Compatible Arduino Uno pinout 
-  I2C, UART, SWD, 30 GPIOs
-  256KB Rom
-  32KB Ram
-  Support Arduino, mbed,...
-  Upload firmware: SWD (CMSIS-DAP), Serial
+  * Compatible Arduino Uno pinout 
+  * I2C, UART, SWD, 30 GPIOs
+  * 256KB Rom
+  * 32KB Ram
+  * Support Arduino, mbed,...
+  * Upload firmware: SWD (CMSIS-DAP), Serial
 
 2. Kit BLE_NANO and BLE_NANO_CRICLE: Comming soon
 
@@ -24,8 +24,8 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 1. Python 2.7: Select 32bit version at https://www.python.org/downloads/release/python-2712/
 
 2. Tool pc-nrfutil-0.3.0: https://github.com/NordicSemiconductor/pc-nrfutil/releases/tag/v0.3.0
-- Device Firmware Update procedure over Serial and Bluetooth Low Energy
-- To install, please see readme.md and requirement.txt in that package
+* Device Firmware Update procedure over Serial and Bluetooth Low Energy
+* To install, please see readme.md and requirement.txt in that package
 
 
 ##Install Board Package Add-on

@@ -1,15 +1,32 @@
-#                    VBLUno_nRF51822 - Arduino
+##VBLUno_nRF51822 - Arduino
+
 These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
+#
 
+#Hardware
+
+1. Kit VBLUno nRF51822 (http://iotviet.com.vn/store/detail?id=2)
+- Nordic nRF51822 with Cortex-M0 32bit CPU
+- Bluetooth Low Energy interface
+- Compatible Arduino Uno pinout 
+- I2C, UART, SWD, 30 GPIOs
+- 256KB Rom
+- 32KB Ram
+- Support Arduino, mbed,...
+- Upload firmware: SWD (CMSIS-DAP), Serial
+
+2. Kit BLE_NANO and BLE_NANO_CRICLE: Comming soon
 
  
 #Requirements
 
-1. Python 2.7. Select 32bit version at https://www.python.org/downloads/release/python-2712/
+1. Python 2.7: Select 32bit version at https://www.python.org/downloads/release/python-2712/
 
 2. Tool pc-nrfutil-0.3.0: https://github.com/NordicSemiconductor/pc-nrfutil/releases/tag/v0.3.0
-To install, please see readme.md and requirement.txt in that package
+- Device Firmware Update procedure over Serial and Bluetooth Low Energy
+- To install, please see readme.md and requirement.txt in that package
+
 
 #Install Board Package Add-on
 
@@ -19,11 +36,13 @@ To install, please see readme.md and requirement.txt in that package
 2. Start the IDE and from the Menu, click "Preference...", add the following line to "Additional Boards Manager URLs"
            https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_index.json
 
-3. Install the "VNGIoTLab nRF51822 Boards" add-on via Boards Manager from the Menu: Tools -> Board -> Boards Manager ...
+3. Install the "VNGIoTLab VBLUno nRF51822 Boards" add-on via Boards Manager from the Menu: Tools -> Board -> Boards Manager ...
+
+#Bootloaders
 
 
 
-Thanks RedBearLab.
+Thanks RedBearLab: https://github.com/RedBearLab/nRF51822-Arduino
 
 Links:
 - http://iotviet.com.vn/store/detail?id=2

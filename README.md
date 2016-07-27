@@ -23,7 +23,8 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
 1. Python 2.7: Select 32bit version at https://www.python.org/downloads/release/python-2712/
 
-2. Tool pc-nrfutil-0.3.0: https://github.com/NordicSemiconductor/pc-nrfutil/releases/tag/v0.3.0
+2. pc-nrfutil-0.3.0: https://github.com/NordicSemiconductor/pc-nrfutil/releases/tag/v0.3.0
+  * This is a python package and command line client, to help upload firmware to nRF chip over Serial and BLE
   * Device Firmware Update procedure over Serial and Bluetooth Low Energy
   * To install, please see readme.md and requirement.txt in that package
 
@@ -46,8 +47,11 @@ In the "VNGIoTLab_VBLUno_nRF51822_board_v100.zip\bootloader" folder, there is a 
 To load the bootloader, connect the board to your PC using a CMSIS-DAP module over SWD interface, it will prompt a drive (MBED), drag the bootloader firmware to the drive.
 
 ##Upload firmware to board over Serial
-
-Use the upload icon to load the sketch to your board.
+  * Switch bridge on J7 to 1-2
+  * Reset power
+  * LED D1 will light to indicate bootloader is actived
+  * Use the upload icon to load the sketch to your board.
+  * After above process finish, switch J7 to old position and reset.
 
 ## How to Play
 

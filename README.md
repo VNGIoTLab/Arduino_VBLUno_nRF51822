@@ -45,13 +45,17 @@ In the "VNGIoTLab_VBLUno_nRF51822_board_v100.zip\bootloader" folder, there is a 
 
 To load the bootloader, connect the board to your PC using a CMSIS-DAP module over SWD interface, it will prompt a drive (MBED), drag the bootloader firmware to the drive.
 
+##Upload firmware to board over Serial
+
+Use the upload icon to load the sketch to your board.
+
 ## How to Play
 
 1. Select board and serial port
 
-  Select the VBLUno nRF51822 (V1.0 32KB) board from the menu of the Arduino IDE,
+  Select the VNGIoTLab nRF51822 board from the menu of the Arduino IDE,
 
-    Menu > Tools > Board > RBL nRF51822
+    Menu > Tools > Board > VBLUno nRF51822 (V1.0 32KB)
     
   
   Select the serial port for print out with the USB Interface Dongle,

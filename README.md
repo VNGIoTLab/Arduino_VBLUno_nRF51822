@@ -8,8 +8,9 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
   * Adds support for the Arduino IDE enables compiling firmwares for the VBLUno_nRF51822 and BLE Nano development boards.
   * Upload sketches over Serial using nrfutil-0.3.0 (with bootloader is customized).
   * Provides BLE API for SoftDevice S130 with concurrent BLE Central and Peripheral role support.
-  * Operating Systems:
-      + Current tested version: Windows 7
+  * Operating Systems (Current tested versions):
+      + Windows 7 Professional - 64bit
+      + Ubuntu 14.04 LTS - 64bit
 
 ##Hardware
 

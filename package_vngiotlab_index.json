@@ -15,8 +15,8 @@
 					"category":"VNGIoTLab",
 					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VNGIoTLab_VBLUno_nRF51822_board_v100.zip",
 					"archiveFileName":"VNGIoTLab_VBLUno_nRF51822_board_v100.zip",
-					"checksum":"SHA-256:0A8C949A7779FAE6F06C88AA8B8274A32AA5B4FDF809A8918EE3B0184035A0F3",
-					"size":"7399015",
+					"checksum":"SHA-256:69EFCC35F945376A3AA3767C8CFC78887FCC01472BC054FB2871AB3EFD92A068",
+					"size":"7162235",
 					"boards":
 						[
 							{"name":"VBLUno nRF51822(V1.0 32KB)"},

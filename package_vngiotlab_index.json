@@ -98,8 +98,8 @@
 								"host":"i686-mingw32",
 								"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0.zip",
 								"archiveFileName":"nrfutil-0.3.0.zip",
-								"checksum":"SHA-256:6EC582810AD8BA9AF15D0251B5847A559DA3C7E9D9692E9FE3D754D537B10FDD",
-								"size":"430607"
+								"checksum":"SHA-256:767CD4BA9C1B9CE36F14987B37D18DFF4BC08E1A7D81A5648E1BB0092A2F1685",
+								"size":"430599"
 							}
 						]
 				}

@@ -15,8 +15,8 @@
 					"category":"VNGIoTLab",
 					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VNGIoTLab_VBLUno_nRF51822_board_v100.zip",
 					"archiveFileName":"VNGIoTLab_VBLUno_nRF51822_board_v100.zip",
-					"checksum":"SHA-256:6177315A7A18A60FC00403254BAFE9603A9229F6EC72349AE1DA364F520C10E9",
-					"size":"7162248",
+					"checksum":"SHA-256:EFCE718DB6EE1D75A0AA9BCB3547F7D3DEF549A441947EE1155DAD2E2926D9EB",
+					"size":"7162182",
 					"boards":
 						[
 							{"name":"VBLUno nRF51822(V1.0 32KB)"},
@@ -84,15 +84,15 @@
 						  "host": "i686-linux-gnu",
 						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux.zip",
 						  "archiveFileName": "nrfutil-0.3.0_linux.zip",
-						  "size": "414572",
-						  "checksum": "SHA-256:DA0B42CBF5E1F0466022D7E2C8C831322833FB8452E519E045BCEDF217801339"
+						  "size": "414867",
+						  "checksum": "SHA-256:D2B8CCDD88DD4F44EA80A82B7F860BAA45532F34A3E4B775167A51B6A730437E"
 					      },
 					      {
 						  "host": "x86_64-pc-linux-gnu",
 						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux.zip",
 						  "archiveFileName": "nrfutil-0.3.0_linux.zip",
-						  "size": "414572",
-						  "checksum": "SHA-256:DA0B42CBF5E1F0466022D7E2C8C831322833FB8452E519E045BCEDF217801339"
+						  "size": "414867",
+						  "checksum": "SHA-256:D2B8CCDD88DD4F44EA80A82B7F860BAA45532F34A3E4B775167A51B6A730437E"
 					      },
 							{
 								"host":"i686-mingw32",

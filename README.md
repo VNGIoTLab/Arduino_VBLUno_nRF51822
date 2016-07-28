@@ -42,6 +42,7 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
 1. Get Arduino IDE from Arduino website and install it to your PC
            http://arduino.cc/en/Main/Software
+If you are using a Linux OS, please run Arduino with root account. Open Terminal, use "su" command, 
 
 2. Start the IDE and from the Menu, click "Preference...", add the following line to "Additional Boards Manager URLs"
            https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_index.json

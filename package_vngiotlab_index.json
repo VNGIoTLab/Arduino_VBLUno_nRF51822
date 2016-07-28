@@ -84,15 +84,15 @@
 						  "host": "i686-linux-gnu",
 						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux.zip",
 						  "archiveFileName": "nrfutil-0.3.0_linux.zip",
-						  "size": "414570",
-						  "checksum": "SHA-256:6F7BD7D06C29A8C3A37D9BB0431F243B4E15AA61EF38507B3C7337FDAD7E96CD"
+						  "size": "414572",
+						  "checksum": "SHA-256:DA0B42CBF5E1F0466022D7E2C8C831322833FB8452E519E045BCEDF217801339"
 					      },
 					      {
 						  "host": "x86_64-pc-linux-gnu",
 						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux.zip",
 						  "archiveFileName": "nrfutil-0.3.0_linux.zip",
-						  "size": "414570",
-						  "checksum": "SHA-256:6F7BD7D06C29A8C3A37D9BB0431F243B4E15AA61EF38507B3C7337FDAD7E96CD"
+						  "size": "414572",
+						  "checksum": "SHA-256:DA0B42CBF5E1F0466022D7E2C8C831322833FB8452E519E045BCEDF217801339"
 					      },
 							{
 								"host":"i686-mingw32",

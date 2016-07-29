@@ -119,7 +119,7 @@ To load the bootloader, connect the board to your PC using a CMSIS-DAP module ov
   This example allows you to exchange data with your central device (e.g. iPhone 5) and the data will be redirected to the UART.
 
 
-##Links:
+##Useful Links
 - http://iotviet.com.vn/store/detail?id=2
 - https://www.facebook.com/bleviet/?fref=ts
 - https://www.facebook.com/iotviet.vn/?fref=ts

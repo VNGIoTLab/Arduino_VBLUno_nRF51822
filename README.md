@@ -15,9 +15,6 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 ##Hardware
 
 1. Kit VBLUno nRF51822 (http://iotviet.com.vn/store/detail?id=2)
-
-Schematic: https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VBLUno_BLE_ARDUINO%20UNO%20SCHEMATIC.pdf
-
     * Nordic nRF51822 with Cortex-M0 32bit CPU
     * Bluetooth Low Energy interface
     * Compatible Arduino Uno pinout 
@@ -27,7 +24,7 @@ Schematic: https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VBLUn
     * Support Arduino, mbed,...
     * Upload firmware: SWD (CMSIS-DAP), Serial
 
-
+Schematic: https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VBLUno_BLE_ARDUINO%20UNO%20SCHEMATIC.pdf
 
 2. Kit BLE_NANO and BLE_NANO_CRICLE: Comming soon
 

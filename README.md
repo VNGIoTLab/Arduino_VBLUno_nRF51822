@@ -29,8 +29,8 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
 
 
-##Install Program Requirements
-
+##Install Requirements
+These programs will help Arduino can upload firmware to device over Serial.
 1. Python 2.7: Select 32bit version at https://www.python.org/downloads/release/python-2712/
 
 2. pc-nrfutil-0.3.0: https://github.com/NordicSemiconductor/pc-nrfutil/releases/tag/v0.3.0
@@ -43,7 +43,7 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
 1. Get Arduino IDE from Arduino website and install it to your PC
     * http://arduino.cc/en/Main/Software
-    * Note: If you are using Linux Operating System, please run Arduino with root permission, to arduino can open serial port.
+    * Note: If you are using Linux Operating System, please run Arduino with root permission, help Arduino can open serial port.
        * Open Terminal (Ctrl + Alt + T), switch to root account by type "su" command
        * Open arduino by type the path of Arduino program. For example: /home/mrABC/Downloads/arduino-1.6.10/arduino
 

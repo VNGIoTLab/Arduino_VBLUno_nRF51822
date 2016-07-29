@@ -30,7 +30,8 @@ These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
 
 ##Install Requirements
-These programs will help Arduino can upload firmware to device over Serial.
+   These programs will help Arduino can upload firmware to device over Serial.
+
 1. Python 2.7: Select 32bit version at https://www.python.org/downloads/release/python-2712/
 
 2. pc-nrfutil-0.3.0: https://github.com/NordicSemiconductor/pc-nrfutil/releases/tag/v0.3.0

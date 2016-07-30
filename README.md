@@ -3,7 +3,7 @@
 These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
 ##News: 
-Video demos for VBLUno kit
+Demo videos for VBLUno kit: 
 https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit
 
 ## Features

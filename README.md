@@ -51,7 +51,7 @@ Note: Kit BLE_NANO and BLE_NANO_CRICLE: Comming soon
     * Note: If you are using Linux Operating System, please run Arduino with root permission, help Arduino can open serial port.
        * Open Terminal (Ctrl + Alt + T)
        * Switch to directory of Arduino program by type "cd" command and the path of Arduino program. 
-             For example: cd /home/mrABC/Downloads/arduino-1.6.10
+                * For example: cd /home/mrABC/Downloads/arduino-1.6.10
        * Open Adruino IDE with sudo command: sudo ./aduino
 
 2. Start the IDE and from the Menu, click "Preference...", add the following line to "Additional Boards Manager URLs"

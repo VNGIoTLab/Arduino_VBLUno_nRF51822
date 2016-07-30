@@ -125,6 +125,10 @@ To load the bootloader, connect the board to your PC using a CMSIS-DAP module ov
 - https://www.facebook.com/bleviet/?fref=ts
 - https://www.facebook.com/iotviet.vn/?fref=ts
 
+##Video Demos for VBLUno Kit:
+1. BLE_Serial example with Arduino IDE on Ubuntu
+https://www.youtube.com/watch?v=U4xNDTFVvXg
+
 ##License
 Copyright (c) 2016 VNGIoTLab
 

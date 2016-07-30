@@ -2,11 +2,11 @@
 
 These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
-##>>>>>>>>>>>>>>>>>>News<<<<<<<<<<<<<<<<<<<<
+##New useful document
 Demo videos for VBLUno kit: 
 https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit
 
-## Features
+##Features
 
   * Adds support for the Arduino IDE enables compiling firmwares for the VBLUno_nRF51822 and BLE Nano development boards.
   * Upload sketches over Serial using nrfutil-0.3.0 (with bootloader is customized).

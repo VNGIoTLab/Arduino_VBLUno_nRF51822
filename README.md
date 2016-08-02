@@ -29,7 +29,7 @@ https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit
 
 Schematic: https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VBLUno_BLE_ARDUINO%20UNO%20SCHEMATIC.pdf
 
-Note: Kit BLE_NANO and BLE_NANO_CRICLE: Comming soon
+Note: Kit BLE_NANO and BLE_NANO_CIRCLE: Comming soon
 
 
 
@@ -42,7 +42,7 @@ Note: Kit BLE_NANO and BLE_NANO_CRICLE: Comming soon
   * This is a python package and command line client, to help upload firmware to nRF chip over Serial and BLE
   * Device Firmware Update procedure over Serial and Bluetooth Low Energy
   * To install, please see readme.md and requirement.txt in that package
-
+3. Driver for CP210x chip- USB to UART: https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
 
 ##Install Board Package Add-on
 

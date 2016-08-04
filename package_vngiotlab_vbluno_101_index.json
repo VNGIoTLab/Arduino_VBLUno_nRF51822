@@ -1,0 +1,108 @@
+{
+	"packages":
+	{
+		"name":"VNGIoTLab",
+		"maintainer":"VNGIoTLab",
+		"websiteURL":"http://iotviet.com.vn",
+		"email":"support@iotviet.com.vn",
+		"help":{ "online":"https://iotviet.com.vn/forums" },
+		"platforms":
+			[
+				{
+					"name":"VNGIoTLab VBLUno nRF51822 Boards",
+					"architecture":"nRF51822",
+					"version":"1.0.0",
+					"category":"VNGIoTLab",
+					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VNGIoTLab_VBLUno_nRF51822_board_v101.zip",
+					"archiveFileName":"VNGIoTLab_VBLUno_nRF51822_board_v101.zip",
+					"checksum":"SHA-256:A41184039C2F14377CD4CA6D9E5D8D6E9E87538A0DC4D80F54FFA031B4BF4DAE",
+					"size":"7109776",
+					"boards":
+						[
+							{"name":"VBLUno nRF51822(V1.0 32KB)"},
+							{"name":"BLE Nano(V1.0 32KB)- Comming soon"},
+							{"name":"BLE Nano Circle(V1.0 32KB)- Comming soon"}
+						],
+					"toolsDependencies":
+						[
+							{
+								"packager":"VNGIoTLab",
+								"name":"arm-none-eabi-gcc",
+								"version":"4.8.3-2014q1"
+							},
+							{
+								"packager":"VNGIoTLab",
+								"name":"nrfutil",
+								"version":"0.3.0"
+							}
+						]
+				}
+			],
+		"tools":
+			[
+				{
+					"name":"arm-none-eabi-gcc",
+					"version":"4.8.3-2014q1",
+					"systems":
+						[
+							{
+								"host":"i686-mingw32",
+								"archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+								"url":"http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+								"checksum":"SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+								"size":"84537449"
+							},
+							{
+								"host":"x86_64-apple-darwin",
+								"url":"http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+								"archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+								"checksum":"SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+								"size":"52518522"
+							},
+							{
+								"host":"x86_64-pc-linux-gnu",
+								"url":"http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+								"archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+								"checksum":"SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+								"size":"51395093"
+							},
+							{
+								"host":"i686-pc-linux-gnu",
+								"url":"http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+								"archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+								"checksum":"SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+								"size":"51029223"
+							}
+						]
+				},
+				{
+					"name":"nrfutil",
+					"version":"0.3.0",
+					"systems":
+						[
+					       {
+						  "host": "i686-linux-gnu",
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux_101.zip",
+						  "archiveFileName": "nrfutil-0.3.0_linux_101.zip",
+						  "size": "3327709",
+						  "checksum": "SHA-256:C41B9EC22FF6041F7D1B84F78945EEA19CB5D9D1FF6E8668990174668ABA525D"
+					      },
+					      {
+						  "host": "x86_64-pc-linux-gnu",
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux_101.zip",
+						  "archiveFileName": "nrfutil-0.3.0_linux_101.zip",
+						  "size": "3327709",
+						  "checksum": "SHA-256:C41B9EC22FF6041F7D1B84F78945EEA19CB5D9D1FF6E8668990174668ABA525D"
+					      },
+							{
+								"host":"i686-mingw32",
+								"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_101.zip",
+								"archiveFileName":"nrfutil-0.3.0_101.zip",
+								"checksum":"SHA-256:DBA02965223BB216920996EC477DF0B81FBF891D891B64FFA75D25C4C5DE88FC",
+								"size":"7304786"
+							}
+						]
+				}
+			]
+	}
+}

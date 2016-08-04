@@ -11,7 +11,7 @@
 				{
 					"name":"VNGIoTLab VBLUno nRF51822 Boards",
 					"architecture":"nRF51822",
-					"version":"1.0.0",
+					"version":"1.0.1",
 					"category":"VNGIoTLab",
 					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VNGIoTLab_VBLUno_nRF51822_board_v101.zip",
 					"archiveFileName":"VNGIoTLab_VBLUno_nRF51822_board_v101.zip",

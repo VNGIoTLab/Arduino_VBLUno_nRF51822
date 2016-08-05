@@ -2,14 +2,14 @@
 These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 
 ##Lựa chọn ngôn ngữ / Select language:
-1. Ngôn ngữ tiếng Việt.
-2. English language.
+1. Ngôn ngữ tiếng Việt: https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#ngôn-ngữ-tiếng-việt
+2. English language. https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#english-language
 
 #Ngôn ngữ tiếng Việt
 
 ##Chú ý
 1. Phiên bản hiện tại: v1.0.1
-2. Các video demo sử dụng Arduino cho VBLUno kit:…..
+2. Các video demo sử dụng Arduino cho VBLUno kit: https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#các-video-demo-cho-vbluno-kit
 
 ##Tính năng
 1. Các tài nguyên này cho phép sử dụng Arduino IDE để lập trình, biên dịch chương trình điều khiển (firmware) cho mạch phát triển VBLUno và BLE Nano.
@@ -61,7 +61,7 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
      * Chạy Arduino IDE, vào menu File, chọn "Preferences", thêm dòng sau vào ô  "Additional Boards Manager URLs: "https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_101_index.json
      
      * Cài đặt dữ liệu "VNGIoTLab VBLUno nRF51822 Boards" thông qua Trình quản lý boards (Boards Manager) từ menu: Tools -> Board -> Boards Manager ...
-Chọn VNGIoTLab VBLUno nRF51822 Boards và nhấn Install
+	Chọn VNGIoTLab VBLUno nRF51822 Boards và nhấn Install
 
 * Cách 2: Cài đặt offline
      * Bạn cần chắc chắn Arduino IDE không được mở trong quá trình cài đặt offline.
@@ -69,9 +69,9 @@ Chọn VNGIoTLab VBLUno nRF51822 Boards và nhấn Install
           * Cho Windows: https://drive.google.com/file/d/0B8JRZY_9qiUgWERKdG1yYXJNQ28/view
           * Cho Linux 32bit: 
           * Cho Linux 64bit: 
-Dung lượng khoảng 190MB do đã được tích hợp đầy đủ các thành phần cần thiết.
+	Dung lượng khoảng 190MB do đã được tích hợp đầy đủ các thành phần cần thiết.
      * Giải nén và chạy file cài đặt (Setup_VBLUno_xxxxx.exe)
-Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
+	Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
 
 ## Bootloaders
      * Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. Thông thường, bạn có thể bỏ qua bước này.
@@ -134,9 +134,9 @@ This example allows you to exchange data with your central device (e.g. iPhone 5
 …
 
 ##Các link hữu ích
-•	http://iotviet.com.vn/store/detail?id=2
-•	https://www.facebook.com/bleviet/?fref=ts
-•	https://www.facebook.com/iotviet.vn/?fref=ts
+     * http://iotviet.com.vn/store/detail?id=2
+     * https://www.facebook.com/bleviet/?fref=ts
+     * https://www.facebook.com/iotviet.vn/?fref=ts
 
 ##Các video demo cho VBLUno kit
 1.	Ví dụ BLE_Serial  với Arduino IDE trên Ubuntu  https://www.youtube.com/watch?v=U4xNDTFVvXg
@@ -146,3 +146,5 @@ Bản quyền (c) 2016 VNGIoTLab
 
 Các tài liệu này được công bố dạng mã nguồn mở nhằm mục đích hỗ trợ cộng đồng phát triển. Ngoài ra cũng mong nhận được sự phản hồi, đóng góp từ cộng đồng.
 
+
+#English Language

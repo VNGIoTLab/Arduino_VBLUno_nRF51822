@@ -108,9 +108,8 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
      
      * Nếu biên dịch và nạp thành công, bạn sẽ nhận được thông báo “Device programmed”
 
-5. Các ví dụ sử dụng giao tiếp BLE
-Ngoài các ví dụ cơ bản của Arduino, VBLUno hỗ trợ sẵn nhiều ví dụ sử dụng giao tiếp Bluetooth Low Energy (BLE)
-Bạn có thể thử các ví dụ bằng cách vào Menu > File > BLE_Examples
+5. Ngoài các ví dụ cơ bản của Arduino, VBLUno hỗ trợ sẵn nhiều ví dụ sử dụng giao tiếp Bluetooth Low Energy (BLE)
+. Bạn có thể thử các ví dụ bằng cách vào Menu > File > BLE_Examples
 
 	* BLE_HRM: This is an Heart Rate Monitor demo, it simulates Heart Rate detection. You can use Nordic nRFToolBox App to play.
 

@@ -68,12 +68,11 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 
      * Bạn cần chắc chắn Arduino IDE không được mở trong quá trình cài đặt offline.
      
-     * Tải bản cài đặt phù hợp với hệ điều hành
+     * Tải bản cài đặt phù hợp với hệ điều hành: 
           * Cho Windows: https://drive.google.com/file/d/0B8JRZY_9qiUgWERKdG1yYXJNQ28/view
           * Cho Linux 32bit: 
           * Cho Linux 64bit: 
-	Dung lượng khoảng 190MB do đã được tích hợp đầy đủ các thành phần cần thiết.
-
+	  
      * Giải nén và chạy file cài đặt (Setup_VBLUno_xxxxx.exe)
      	* Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
 

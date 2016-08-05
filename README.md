@@ -60,26 +60,30 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 
      * Chạy Arduino IDE, vào menu File, chọn "Preferences", thêm dòng sau vào ô  "Additional Boards Manager URLs: "https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_101_index.json
      
-     * Cài đặt dữ liệu "VNGIoTLab VBLUno nRF51822 Boards" thông qua Trình quản lý boards (Boards Manager) từ menu: Tools -> Board -> Boards Manager ...
-	Chọn VNGIoTLab VBLUno nRF51822 Boards và nhấn Install
+     * Cài đặt dữ liệu "VNGIoTLab VBLUno nRF51822 Boards" thông qua Trình quản lý boards (Boards Manager) 
+     	* Từ menu: Tools -> Board -> Boards Manager ...
+     	* Chọn VNGIoTLab VBLUno nRF51822 Boards và nhấn Install
 
 * Cách 2: Cài đặt offline
+
      * Bạn cần chắc chắn Arduino IDE không được mở trong quá trình cài đặt offline.
+     
      * Tải bản cài đặt phù hợp với hệ điều hành
           * Cho Windows: https://drive.google.com/file/d/0B8JRZY_9qiUgWERKdG1yYXJNQ28/view
           * Cho Linux 32bit: 
           * Cho Linux 64bit: 
 	Dung lượng khoảng 190MB do đã được tích hợp đầy đủ các thành phần cần thiết.
+
      * Giải nén và chạy file cài đặt (Setup_VBLUno_xxxxx.exe)
-	Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
+     	* Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
 
-## Bootloaders
-     * Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. Thông thường, bạn có thể bỏ qua bước này.
-     
-     * Trong thư mục "VNGIoTLab_VBLUno_nRF51822_board_v101\bootloader" có chứa file bootloader.hex và mã nguồn tương ứng. Đây là bootloader cho phép Arduino IDE nạp (upload) firmware xuống VBLUno thông qua cổng nối tiếp.
-     
-     * Để nạp bootloader, kết nối mạch với PC sử dụng mô đun CMSIS-DAP qua giao tiếp SWD (J5), nó sẽ tạo ra một ổ đĩa ảo (MBED), kéo thả bootloader.hex vào ổ đĩa ảo này.
+##Bootloaders
+	
+* Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. Thông thường, bạn có thể bỏ qua bước này.
 
+* Trong thư mục "VNGIoTLab_VBLUno_nRF51822_board_v101\bootloader" có chứa file bootloader.hex và mã nguồn tương ứng. Đây là bootloader cho phép Arduino IDE nạp (upload) firmware xuống VBLUno thông qua cổng nối tiếp.
+
+* Để nạp bootloader, kết nối mạch với PC sử dụng mô đun CMSIS-DAP qua giao tiếp SWD (J5), nó sẽ tạo ra một ổ đĩa ảo (MBED), kéo thả bootloader.hex vào ổ đĩa ảo này.
 ##Bắt đầu sử dụng
 
 1. Kết nối mạch VBLUno với PC thông qua cổng USB trên mạch. 
@@ -108,35 +112,37 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 Ngoài các ví dụ cơ bản của Arduino, VBLUno hỗ trợ sẵn nhiều ví dụ sử dụng giao tiếp Bluetooth Low Energy (BLE)
 Bạn có thể thử các ví dụ bằng cách vào Menu > File > BLE_Examples
 
-     * BLE_HRM
+	* BLE_HRM
 
 This is an Heart Rate Monitor demo, it simulates Heart Rate detection. You can use Nordic nRFToolBox App to play.
 
-     * BLE_Beacon
+	* BLE_Beacon
 
 This is to implement Apple's iBeacon, you can try it with our BeaconTool available in the AppStore for iOS and PlayStore for Android.
 
-     * SimpleControls
+	* SimpleControls
 
 This sample shows how to define your own protocol and to control the I/O of the board from a Central (e.g. iPhone) using the BLE Controller App.
 
-     * SimpleChat
+	* SimpleChat
 
 This sample allows you to send text message from the board to your central device such as iPhone or Android using the BLE Controller App.
 
-     * BLEController
+	* BLEController
 
 This example allows you to use the BLE Controller App (available for iOS and Android) to control the pin state such as High, Low, PWM, Analog, etc.
 
-     * BLESerial
+	* BLESerial
 
 This example allows you to exchange data with your central device (e.g. iPhone 5) and the data will be redirected to the UART.
 …
 
+
+
 ##Các link hữu ích
-     * http://iotviet.com.vn/store/detail?id=2
-     * https://www.facebook.com/bleviet/?fref=ts
-     * https://www.facebook.com/iotviet.vn/?fref=ts
+	* http://iotviet.com.vn/store/detail?id=2
+	* https://www.facebook.com/bleviet/?fref=ts
+	* https://www.facebook.com/iotviet.vn/?fref=ts
 
 ##Các video demo cho VBLUno kit
 1.	Ví dụ BLE_Serial  với Arduino IDE trên Ubuntu  https://www.youtube.com/watch?v=U4xNDTFVvXg

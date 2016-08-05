@@ -1,0 +1,9 @@
+Packages for VBLUno kit on Arduino IDE
+
+
+- Version 1.0.1: 
++ 5/8/2016
++ Add setup online feature
+
+- Version 1.0.0
++ Setup online

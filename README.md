@@ -2,8 +2,9 @@
 
 These is packages that help use Arduino for VBLUno_nRF51822 BLE kit
 
-##Note: New useful document
-Demo videos for VBLUno kit: 
+##Note:
+1. Current Version: v1.0.1
+2. Demo videos for VBLUno kit: 
 https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit
 
 ##Features
@@ -55,7 +56,7 @@ Note: Kit BLE_NANO and BLE_NANO_CIRCLE: Comming soon
        * Open Adruino IDE with sudo command: sudo ./aduino
 
 2. Start the IDE and from the Menu, click "Preference...", add the following line to "Additional Boards Manager URLs"
-           https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_index.json
+           https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_101_index.json
 
 3. Install the "VNGIoTLab VBLUno nRF51822 Boards" add-on via Boards Manager from the Menu: Tools -> Board -> Boards Manager ...
 

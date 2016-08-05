@@ -36,7 +36,7 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 
 2. Mạch BLE_NANO và BLE_NANO_CIRCLE: Sắp giới thiệu
 
-## Cài đặt các thành phần cần thiết
+##Cài đặt các thành phần cần thiết
 
 1. Cài đặt trình điều khiển cho chip CP210x – USB to UART
     * Nếu đã cài đặt, bạn có thể  bỏ qua bước này
@@ -84,6 +84,7 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 * Trong thư mục "VNGIoTLab_VBLUno_nRF51822_board_v101\bootloader" có chứa file bootloader.hex và mã nguồn tương ứng. Đây là bootloader cho phép Arduino IDE nạp (upload) firmware xuống VBLUno thông qua cổng nối tiếp.
 
 * Để nạp bootloader, kết nối mạch với PC sử dụng mô đun CMSIS-DAP qua giao tiếp SWD (J5), nó sẽ tạo ra một ổ đĩa ảo (MBED), kéo thả bootloader.hex vào ổ đĩa ảo này.
+
 ##Bắt đầu sử dụng
 
 1. Kết nối mạch VBLUno với PC thông qua cổng USB trên mạch. 
@@ -112,42 +113,33 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 Ngoài các ví dụ cơ bản của Arduino, VBLUno hỗ trợ sẵn nhiều ví dụ sử dụng giao tiếp Bluetooth Low Energy (BLE)
 Bạn có thể thử các ví dụ bằng cách vào Menu > File > BLE_Examples
 
-	* BLE_HRM
+	* BLE_HRM: This is an Heart Rate Monitor demo, it simulates Heart Rate detection. You can use Nordic nRFToolBox App to play.
 
-This is an Heart Rate Monitor demo, it simulates Heart Rate detection. You can use Nordic nRFToolBox App to play.
+	* BLE_Beacon: This is to implement Apple's iBeacon, you can try it with our BeaconTool available in the AppStore for iOS and PlayStore for Android.
 
-	* BLE_Beacon
+	* SimpleControls: This sample shows how to define your own protocol and to control the I/O of the board from a Central (e.g. iPhone) using the BLE Controller App.
 
-This is to implement Apple's iBeacon, you can try it with our BeaconTool available in the AppStore for iOS and PlayStore for Android.
+	* SimpleChat: This sample allows you to send text message from the board to your central device such as iPhone or Android using the BLE Controller App.
 
-	* SimpleControls
+	* BLEController: This example allows you to use the BLE Controller App (available for iOS and Android) to control the pin state such as High, Low, PWM, Analog, etc.
 
-This sample shows how to define your own protocol and to control the I/O of the board from a Central (e.g. iPhone) using the BLE Controller App.
-
-	* SimpleChat
-
-This sample allows you to send text message from the board to your central device such as iPhone or Android using the BLE Controller App.
-
-	* BLEController
-
-This example allows you to use the BLE Controller App (available for iOS and Android) to control the pin state such as High, Low, PWM, Analog, etc.
-
-	* BLESerial
-
-This example allows you to exchange data with your central device (e.g. iPhone 5) and the data will be redirected to the UART.
+	* BLESerial: This example allows you to exchange data with your central device (e.g. iPhone 5) and the data will be redirected to the UART.
 …
 
 
 
 ##Các link hữu ích
+
 	* http://iotviet.com.vn/store/detail?id=2
 	* https://www.facebook.com/bleviet/?fref=ts
 	* https://www.facebook.com/iotviet.vn/?fref=ts
 
 ##Các video demo cho VBLUno kit
+
 1.	Ví dụ BLE_Serial  với Arduino IDE trên Ubuntu  https://www.youtube.com/watch?v=U4xNDTFVvXg
 
 ##Giấy phép
+
 Bản quyền (c) 2016 VNGIoTLab
 
 Các tài liệu này được công bố dạng mã nguồn mở nhằm mục đích hỗ trợ cộng đồng phát triển. Ngoài ra cũng mong nhận được sự phản hồi, đóng góp từ cộng đồng.

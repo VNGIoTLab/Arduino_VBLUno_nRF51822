@@ -116,6 +116,8 @@ These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
      
   * Nếu biên dịch và nạp thành công, bạn sẽ nhận được thông báo “Device programmed”
 
+  * Chuyển cầu nối trên jump J7 về vị trí cho phép chạy Application (vị trí 2-3, gần phía cổng USB)
+
 **5. Ví dụ cho BLE**
   * Ngoài các ví dụ cơ bản của Arduino, VBLUno hỗ trợ sẵn nhiều ví dụ sử dụng giao tiếp Bluetooth Low Energy (BLE)
   * Bạn có thể thử các ví dụ bằng cách vào Menu > File > BLE_Examples
@@ -152,6 +154,7 @@ Bản quyền (c) 2016 VNGIoTLab
 
 Các tài liệu này được công bố dạng mã nguồn mở nhằm mục đích hỗ trợ cộng đồng phát triển. Ngoài ra cũng mong nhận được sự phản hồi, đóng góp từ cộng đồng.
 
+------------------------------------------------------------------------------------------------------------------------------
 
 #English Language
 
@@ -264,6 +267,8 @@ You can install by one of two methods following
   * Use the upload icon to load the sketch to your board.
      
   * If it is compiled and uploaded successfully, you will be received the annoucement  “Device programmed”
+  
+  * Switch bridge at jump J7 to position allow to run Application (position 2-3, near USB port).
 
 **5. BLE Examples**
   * Beside Arduino basic examples, VBLUno packages support some examples use Bluetooth Low Energy (BLE) interface.

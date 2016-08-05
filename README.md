@@ -10,6 +10,7 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 ##Chú ý
 1. Phiên bản hiện tại: v1.0.1
 2. [Các video demo sử dụng Arduino cho VBLUno kit](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#các-video-demo-cho-vbluno-kit)
+3. Mọi vấn đề gặp phải khi sử dụng Arduino IDE cho kit VBLUno, các bạn có thể viết tại [ĐÂY](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
 ##Tính năng
 1. Các tài nguyên này cho phép sử dụng Arduino IDE để lập trình, biên dịch chương trình điều khiển (firmware) cho mạch phát triển VBLUno và BLE Nano.
@@ -82,7 +83,7 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 
 ##Bootloaders
 	
-* Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. Thông thường, bạn có thể bỏ qua bước này.
+* Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. **_Thông thường, bạn có thể bỏ qua bước này._**
 
 * Trong thư mục "VNGIoTLab_VBLUno_nRF51822_board_v101\bootloader" có chứa file bootloader.hex và mã nguồn tương ứng. Đây là bootloader cho phép Arduino IDE nạp (upload) firmware xuống VBLUno thông qua cổng nối tiếp.
 
@@ -92,7 +93,7 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 
 **1. Kết nối mạch VBLUno với PC thông qua cổng USB trên mạch.**
 
-  * Chuyển cầu nối trên jump J7 về vị trí cho phép nạp firmware qua cổng USB bằng bootloader (vị trí 1-2, phía Jack nguồn màu đen).
+  * Chuyển cầu nối trên jump J7 về vị trí cho phép nạp firmware qua cổng USB bằng bootloader (vị trí 1-2, gần phía Jack nguồn màu đen).
      
   * Sau đó ấn nút Reset. Lúc này quan sát thấy sáng cả 2 led trên mạch.
 
@@ -130,7 +131,8 @@ These is packages that help use Arduino IDE for VBLUno_nRF51822 BLE kit
 	*BLE Controller*: This example allows you to use the BLE Controller App (available for iOS and Android) to control the pin state such as High, Low, PWM, Analog, etc.
 
 	*BLE Serial*: This example allows you to exchange data with your central device (e.g. iPhone 5) and the data will be redirected to the UART.
-	*.....
+	
+	*.....*
 
 
 

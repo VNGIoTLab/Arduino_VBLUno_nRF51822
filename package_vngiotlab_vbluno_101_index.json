@@ -13,13 +13,13 @@
 					"architecture":"nRF51822",
 					"version":"1.0.1",
 					"category":"VNGIoTLab",
-					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VNGIoTLab_VBLUno_nRF51822_board_v101.zip",
-					"archiveFileName":"VNGIoTLab_VBLUno_nRF51822_board_v101.zip",
-					"checksum":"SHA-256:D2E345B6E3B8C5F7F4CE68355CFAD99C071A9E6BB96AEA6CDEB6B7A73ACB2E6D",
-					"size":"7346885",
+					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VNGIoTLab_VBLUno_nRF51822_board_v101_a.zip",
+					"archiveFileName":"VNGIoTLab_VBLUno_nRF51822_board_v101_a.zip",
+					"checksum":"SHA-256:3E8AA69FE0CF267372135AA935CD823513662230A17AC05D32069E294FB1C322",
+					"size":"7109787",
 					"boards":
 						[
-							{"name":"VBLUno nRF51822(V1.0 32KB)"},
+							{"name":"VBLUno nRF51822(V1.0.1 32KB)"},
 							{"name":"BLE Nano(V1.0 32KB)- Comming soon"},
 							{"name":"BLE Nano Circle(V1.0 32KB)- Comming soon"}
 						],
@@ -82,17 +82,17 @@
 						[
 					       {
 						  "host": "i686-linux-gnu",
-						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux_101.zip",
-						  "archiveFileName": "nrfutil-0.3.0_linux_101.zip",
-						  "size": "3327709",
-						  "checksum": "SHA-256:C41B9EC22FF6041F7D1B84F78945EEA19CB5D9D1FF6E8668990174668ABA525D"
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux_101_a.zip",
+						  "archiveFileName": "nrfutil-0.3.0_linux_101_a.zip",
+						  "size": "3327708",
+						  "checksum": "SHA-256:072CAC922003A0C2E9DDBD723E80DF21266E2B2255349B4BC436B1DF5F5940C6"
 					      },
 					      {
 						  "host": "x86_64-pc-linux-gnu",
-						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux_101.zip",
-						  "archiveFileName": "nrfutil-0.3.0_linux_101.zip",
-						  "size": "3327709",
-						  "checksum": "SHA-256:C41B9EC22FF6041F7D1B84F78945EEA19CB5D9D1FF6E8668990174668ABA525D"
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/nrfutil-0.3.0_linux_101_a.zip",
+						  "archiveFileName": "nrfutil-0.3.0_linux_101_a.zip",
+						  "size": "3327708",
+						  "checksum": "SHA-256:072CAC922003A0C2E9DDBD723E80DF21266E2B2255349B4BC436B1DF5F5940C6"
 					      },
 							{
 								"host":"i686-mingw32",

@@ -74,12 +74,12 @@ These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
   * Bạn cần chắc chắn Arduino IDE không được mở trong quá trình cài đặt offline.
      
   * Tải bản cài đặt phù hợp với hệ điều hành: 
-    * Cho Windows
-    * Cho Linux 32bit
-    * Cho Linux 64bit
+    * [Cho Windows](https://drive.google.com/open?id=0B6MXs-dH-jsfVWlNTEZDamlnemc)
+    * [Cho Linux 32bit](https://drive.google.com/open?id=0B6MXs-dH-jsfbHFHaHFQZGdxZ1U)
+    * [Cho Linux 64bit](https://drive.google.com/open?id=0B6MXs-dH-jsfYUxSUjh2ckpiaTg)
 	  
   * Giải nén và chạy file cài đặt 
-    * Windows: Setup_VBLUno_Win.exe
+    * Windows: Setup_VBLUno_Windows.exe
     * Linux: sudo ./Setup_VBLUno_Linux?? (??=32 hoặc 64). Chú ý phải sử dụng lệnh sudo
     * Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
 
@@ -228,12 +228,12 @@ You can install by one of two methods following
   * You should be sured Arduino IDE cannot be opened while install offline.
      
   * Download suitable softwares for OS: 
-    * For Windows
-    * For Linux 32bit
-    * For Linux 64bit
+    * [For Windows](https://drive.google.com/open?id=0B6MXs-dH-jsfVWlNTEZDamlnemc)
+    * [For Linux 32bit](https://drive.google.com/open?id=0B6MXs-dH-jsfbHFHaHFQZGdxZ1U)
+    * [For Linux 64bit](https://drive.google.com/open?id=0B6MXs-dH-jsfYUxSUjh2ckpiaTg)
 	  
   * Extract and run setup file
-    * Windows: Setup_VBLUno_Win.exe
+    * Windows: Setup_VBLUno_Windows.exe
     * Linux: sudo ./Setup_VBLUno_Linux?? (??=32 or 64).
     * You have to wait until the program announce “The installation was successful” 
 

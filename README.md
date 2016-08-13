@@ -8,7 +8,7 @@ These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
 #Ngôn ngữ tiếng Việt
 
 ##Chú ý
-1. Phiên bản hiện tại: v1.0.1
+1. Phiên bản hiện tại: v1.0.2
 2. [Các video demo sử dụng Arduino cho VBLUno kit](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#các-video-demo-cho-vbluno-kit)
 3. Mọi vấn đề gặp phải khi sử dụng Arduino IDE cho kit VBLUno, các bạn có thể viết tại [ĐÂY](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
@@ -33,7 +33,7 @@ These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
     * Hỗ trợ Arduino, mbed,…
     * Nạp firmware: SWD (CMSIS-DAP), Serial
     * Sơ đồ nguyên lý: [Xem tại đây](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VBLUno_BLE_ARDUINO%20UNO%20SCHEMATIC.pdf)
-    * Hình ảnh sơ đồ chân: *Cập nhật trong thời gian tới*
+    * Hình ảnh sơ đồ chân: ![alt tag](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/blob/master/VBLUno_Pinout.jpg)
 
 2. Mạch BLE_NANO và BLE_NANO_CIRCLE: *Giới thiệu trong thời gian tới*
 
@@ -63,7 +63,7 @@ These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
 
 **_Cách 1: Cài đặt online_**
 
-  * Chạy Arduino IDE, vào menu File, chọn "Preferences", thêm dòng sau vào ô  "Additional Boards Manager URLs": https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_101_index.json
+  * Chạy Arduino IDE, vào menu File, chọn "Preferences", thêm dòng sau vào ô  "Additional Boards Manager URLs": https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_102_index.json
      
   * Cài đặt dữ liệu "VNGIoTLab VBLUno nRF51822 Boards" thông qua Trình quản lý boards (Boards Manager) 
     * Từ menu: Tools -> Board -> Boards Manager ...
@@ -74,9 +74,9 @@ These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
   * Bạn cần chắc chắn Arduino IDE không được mở trong quá trình cài đặt offline.
      
   * Tải bản cài đặt phù hợp với hệ điều hành: 
-    * [Cho Windows](https://drive.google.com/open?id=0B6MXs-dH-jsfVWlNTEZDamlnemc)
-    * [Cho Linux 32bit](https://drive.google.com/open?id=0B6MXs-dH-jsfbHFHaHFQZGdxZ1U)
-    * [Cho Linux 64bit](https://drive.google.com/open?id=0B6MXs-dH-jsfYUxSUjh2ckpiaTg)
+    * [Cho Windows](https://drive.google.com/open?id=0B6MXs-dH-jsfV3lsVzBWVlM1cXM)
+    * [Cho Linux 32bit](https://drive.google.com/open?id=0B6MXs-dH-jsfdE9oLXpxT2Q5RzQ)
+    * [Cho Linux 64bit](https://drive.google.com/open?id=0B6MXs-dH-jsfdHpLcjdfQzktTWs)
 	  
   * Giải nén và chạy file cài đặt 
     * Windows: Setup_VBLUno_Windows.exe
@@ -87,7 +87,7 @@ These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
 	
 * Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. **_Thông thường, bạn có thể bỏ qua bước này._**
 
-* Trong thư mục "VNGIoTLab_VBLUno_nRF51822_board_v101\bootloader" có chứa file bootloader.hex và mã nguồn tương ứng. Đây là bootloader cho phép Arduino IDE nạp (upload) firmware xuống VBLUno thông qua cổng nối tiếp.
+* Trong thư mục "VNGIoTLab_VBLUno_nRF51822_board_v102\bootloader" có chứa file bootloader_57600.hex và mã nguồn tương ứng. Đây là bootloader cho phép Arduino IDE nạp (upload) firmware xuống VBLUno thông qua cổng nối tiếp.
 
 * Để nạp bootloader, kết nối mạch với PC sử dụng mô đun CMSIS-DAP qua giao tiếp SWD (J5), nó sẽ tạo ra một ổ đĩa ảo (MBED), kéo thả bootloader.hex vào ổ đĩa ảo này.
 
@@ -161,7 +161,7 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 #English Language
 
 ##Note
-1. Current version: v1.0.1
+1. Current version: v1.0.2
 2. [Demo videos for VBLUno kit]( https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit)
 3. All issues you can meet when using Arduino IDE for VBLUno kit, you can post at [HERE](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
@@ -186,7 +186,7 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
     * Support Arduino, mbed,…
     * Upload firmware: SWD (CMSIS-DAP), Serial
     * Schematic: [HERE](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VBLUno_BLE_ARDUINO%20UNO%20SCHEMATIC.pdf)
-    * Pinout: *Update soon*
+    * Pinout:  ![alt tag](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/blob/master/VBLUno_Pinout.jpg)
 
 2. Kit BLE_NANO and BLE_NANO_CIRCLE: *Coming soon*
 
@@ -217,7 +217,7 @@ You can install by one of two methods following
 
 **_Method 1: Install online_**
 
-  * Open Arduino IDE, at File,select "Preferences", add the following line to "Additional Boards Manager URLs": https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_101_index.json
+  * Open Arduino IDE, at File,select "Preferences", add the following line to "Additional Boards Manager URLs": https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_102_index.json
      
   * Install the "VNGIoTLab VBLUno nRF51822 Boards" add-on via Boards Manager
     * From menu bar: Tools -> Board -> Boards Manager ...
@@ -228,9 +228,9 @@ You can install by one of two methods following
   * You should be sured Arduino IDE cannot be opened while install offline.
      
   * Download suitable softwares for OS: 
-    * [For Windows](https://drive.google.com/open?id=0B6MXs-dH-jsfVWlNTEZDamlnemc)
-    * [For Linux 32bit](https://drive.google.com/open?id=0B6MXs-dH-jsfbHFHaHFQZGdxZ1U)
-    * [For Linux 64bit](https://drive.google.com/open?id=0B6MXs-dH-jsfYUxSUjh2ckpiaTg)
+    * [For Windows](https://drive.google.com/open?id=0B6MXs-dH-jsfV3lsVzBWVlM1cXM)
+    * [For Linux 32bit](https://drive.google.com/open?id=0B6MXs-dH-jsfdE9oLXpxT2Q5RzQ)
+    * [For Linux 64bit](https://drive.google.com/open?id=0B6MXs-dH-jsfdHpLcjdfQzktTWs)
 	  
   * Extract and run setup file
     * Windows: Setup_VBLUno_Windows.exe
@@ -241,7 +241,7 @@ You can install by one of two methods following
 	
 * Bootloader helps Arduino IDE can upload firmware for VBLUno boards via serial ports.  VBLUno boards are sold , bootloaders are preloaded. **_Normally, you can skip this step._**
 
-* In the folder is named "VNGIoTLab_VBLUno_nRF51822_board_v101\bootloader", it contains bootloader.hex and  source code.
+* In the folder is named "VNGIoTLab_VBLUno_nRF51822_board_v102\bootloader", it contains bootloader_57600.hex and  source code.
 
 * To load bootloader, connect the board with your PC, using a CMSIS-DAP module via SWD interface (J5), it will create a virtual disk (MBED), drag and drop bootloader.hex into this disk.
 

@@ -2,7 +2,7 @@ Bộ cài đặt offline hỗ trợ sử dụng Arduino IDE cho mạch VBLUno c�
 
 
 #Windows OS:
-https://drive.google.com/open?id=0B6MXs-dH-jsfV3lsVzBWVlM1cXM
+
 
 
 

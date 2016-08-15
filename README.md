@@ -74,9 +74,8 @@ These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
   * Bạn cần chắc chắn Arduino IDE không được mở trong quá trình cài đặt offline.
      
   * Tải bản cài đặt phù hợp với hệ điều hành: 
-    * [Cho Windows](https://drive.google.com/open?id=0B6MXs-dH-jsfV3lsVzBWVlM1cXM)
-    * [Cho Linux 32bit](https://drive.google.com/open?id=0B6MXs-dH-jsfdE9oLXpxT2Q5RzQ)
-    * [Cho Linux 64bit](https://drive.google.com/open?id=0B6MXs-dH-jsfdHpLcjdfQzktTWs)
+    * [Cho Windows](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Windows)
+    * [Cho Linux](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Linux)
 	  
   * Giải nén và chạy file cài đặt 
     * Windows: Setup_VBLUno_Windows.exe
@@ -228,9 +227,8 @@ You can install by one of two methods following
   * You should be sured Arduino IDE cannot be opened while install offline.
      
   * Download suitable softwares for OS: 
-    * [For Windows](https://drive.google.com/open?id=0B6MXs-dH-jsfV3lsVzBWVlM1cXM)
-    * [For Linux 32bit](https://drive.google.com/open?id=0B6MXs-dH-jsfdE9oLXpxT2Q5RzQ)
-    * [For Linux 64bit](https://drive.google.com/open?id=0B6MXs-dH-jsfdHpLcjdfQzktTWs)
+    * [For Windows](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Windows)
+    * [For Linux](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Linux)
 	  
   * Extract and run setup file
     * Windows: Setup_VBLUno_Windows.exe

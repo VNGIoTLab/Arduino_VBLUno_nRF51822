@@ -6,3 +6,4 @@
 + 31/8/2016: Tutorial 3: Tự làm một thiết bị Beacon với VBLUno
 + 05/9/2016: Tutorial 4: Đo nhiệt độ bên trong chip nRF51822
 + 11/9/2016: Tutorial 5: Demo thiết bị nhiệt kế y tế với VBLUno
++ 14/9/2016: Tutorial 6: Truyền thông giữa Smartphone và PC với "UART over BLE"

@@ -1,5 +1,5 @@
 #VNGIoTLab VBLUno nRF51822 kit on Arduino IDE
-These is packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
+These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit
 
 ##Lựa chọn ngôn ngữ / Select language:
 1. [Ngôn ngữ tiếng Việt](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#ngôn-ngữ-tiếng-việt)

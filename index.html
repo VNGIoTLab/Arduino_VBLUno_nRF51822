@@ -1,0 +1,513 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Arduino VBLUno nRF51822 by VNGIoTLab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Arduino VBLUno nRF51822</h1>
+        <p>These are packages that help use Arduino for VBLUno_nRF51822 BLE kit</p>
+
+        <p class="view"><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822">View the Project on GitHub <small>VNGIoTLab/Arduino_VBLUno_nRF51822</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="vngiotlab-vbluno-nrf51822-kit-on-arduino-ide" class="anchor" href="#vngiotlab-vbluno-nrf51822-kit-on-arduino-ide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>VNGIoTLab VBLUno nRF51822 kit on Arduino IDE</h1>
+
+<p>These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit</p>
+
+<h2>
+<a id="lựa-chọn-ngôn-ngữ--select-language" class="anchor" href="#l%E1%BB%B1a-ch%E1%BB%8Dn-ng%C3%B4n-ng%E1%BB%AF--select-language" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lựa chọn ngôn ngữ / Select language:</h2>
+
+<ol>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#ng%C3%B4n-ng%E1%BB%AF-ti%E1%BA%BFng-vi%E1%BB%87t">Ngôn ngữ tiếng Việt</a></li>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#english-language">English language</a></li>
+</ol>
+
+<h1>
+<a id="ngôn-ngữ-tiếng-việt" class="anchor" href="#ng%C3%B4n-ng%E1%BB%AF-ti%E1%BA%BFng-vi%E1%BB%87t" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ngôn ngữ tiếng Việt</h1>
+
+<h2>
+<a id="chú-ý" class="anchor" href="#ch%C3%BA-%C3%BD" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chú ý</h2>
+
+<ol>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial">TUTORIALS</a></li>
+<li>Phiên bản hiện tại: v1.0.3 (Đã sửa lỗi nạp chương trình qua Serial khi User name có ký tự khoảng cách)</li>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#c%C3%A1c-video-demo-cho-vbluno-kit">Các video demo sử dụng Arduino cho VBLUno kit</a></li>
+<li>Mọi vấn đề gặp phải khi sử dụng Arduino IDE cho kit VBLUno, các bạn có thể viết tại <a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues">ĐÂY</a>
+</li>
+</ol>
+
+<h2>
+<a id="tính-năng" class="anchor" href="#t%C3%ADnh-n%C4%83ng" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tính năng</h2>
+
+<ol>
+<li>Các tài nguyên này cho phép sử dụng Arduino IDE để lập trình, biên dịch chương trình điều khiển (firmware) cho mạch phát triển VBLUno và BLE Nano.</li>
+<li>Nạp firmware cho mạch qua cổng nối tiếp (Cổng USB trên mạch VBLUno)</li>
+<li>Cung cấp các hàm API giao tiếp Bluetooth Low Energy (BLE) cho SoftDevice S130, hỗ trợ vai trò BLE Central và BLE Peripheral.</li>
+<li>Hỗ trợ cài đặt online và offline.</li>
+<li>Đã kiểm tra chạy tốt trên các hệ điều hành:
+
+<ul>
+<li>Microsoft Windows 7 – 64 bit.</li>
+<li>Microsoft Windows 10 – 64 bit.</li>
+<li>Ubuntu 14.04 LTS – 64 bit.</li>
+</ul>
+</li>
+</ol>
+
+<h2>
+<a id="phần-cứng" class="anchor" href="#ph%E1%BA%A7n-c%E1%BB%A9ng" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Phần cứng</h2>
+
+<ol>
+<li>
+<p><a href="http://iotviet.com.vn/store/detail?id=2">Kit VBLUno nRF51822 của VNGIoTLab</a></p>
+
+<ul>
+<li>Chip Nordic nRF51822 với lõi Cortex-M0 32bit</li>
+<li>Giao tiếp Bluetooth Low Energy</li>
+<li>Tương thích chuẩn pinout của Arduino Uno</li>
+<li>I2C, SPI, UART, SWD, 30 GPIOs</li>
+<li>256KB Flash</li>
+<li>32KB Ram</li>
+<li>Hỗ trợ Arduino, mbed,…</li>
+<li>Nạp firmware: SWD (CMSIS-DAP), Serial</li>
+<li>Sơ đồ nguyên lý: <a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VBLUno_BLE_ARDUINO%20UNO%20SCHEMATIC.pdf">Xem tại đây</a>
+</li>
+<li>Hình ảnh sơ đồ chân: <img src="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/blob/master/VBLUno_Pinout.jpg" alt="alt tag">
+</li>
+</ul>
+</li>
+<li><p>Mạch BLE_NANO và BLE_NANO_CIRCLE: <em>Giới thiệu trong thời gian tới</em></p></li>
+</ol>
+
+<h2>
+<a id="cài-đặt-các-thành-phần-cần-thiết" class="anchor" href="#c%C3%A0i-%C4%91%E1%BA%B7t-c%C3%A1c-th%C3%A0nh-ph%E1%BA%A7n-c%E1%BA%A7n-thi%E1%BA%BFt" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cài đặt các thành phần cần thiết</h2>
+
+<h3>
+<a id="1-cài-đặt-trình-điều-khiển-cho-chip-cp210x--usb-to-uart" class="anchor" href="#1-c%C3%A0i-%C4%91%E1%BA%B7t-tr%C3%ACnh-%C4%91i%E1%BB%81u-khi%E1%BB%83n-cho-chip-cp210x--usb-to-uart" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Cài đặt trình điều khiển cho chip CP210x – USB to UART</h3>
+
+<ul>
+<li><p>Nếu đã cài đặt, bạn có thể  bỏ qua bước này</p></li>
+<li><p>Thực hiện: Tải trình điều khiển phù hợp tại <a href="https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx">ĐÂY</a> và cài đặt vào máy</p></li>
+</ul>
+
+<h3>
+<a id="2-cài-đặt-arduino-ide" class="anchor" href="#2-c%C3%A0i-%C4%91%E1%BA%B7t-arduino-ide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Cài đặt Arduino IDE</h3>
+
+<ul>
+<li><p>Nếu đã cài đặt, bạn có thể  bỏ qua bước này</p></li>
+<li><p>Thực hiện: Tải bản cài đặt phù hợp tại <a href="http://arduino.cc/en/Main/Software">ĐÂY</a> và cài đặt vào máy. </p></li>
+<li>
+<p>Chú ý: Nếu bạn đang sử dụng hệ điều hành Linux, cần chạy Arduino IDE với quyền root. Điều này giúp Arduino IDE có thể mở cổng nối tiếp (UART) để nạp firmware cho mạch VBLUno.</p>
+
+<ul>
+<li>Mở Terminal (Ctrl + Alt + T)</li>
+<li>Chuyển đến thư mục đã cài đặt Arduino bằng cách sử dụng lệnh “cd”. 
+               Ví dụ cd /home/mrABC/arduino-1.6.10</li>
+<li>Mở Arduino IDE với lệnh sudo: sudo ./aduino</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="3-cài-đặt-gói-dữ-liệu-của-mạch-vbluno-cho-arduino-ide" class="anchor" href="#3-c%C3%A0i-%C4%91%E1%BA%B7t-g%C3%B3i-d%E1%BB%AF-li%E1%BB%87u-c%E1%BB%A7a-m%E1%BA%A1ch-vbluno-cho-arduino-ide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Cài đặt gói dữ liệu của mạch VBLUno cho Arduino IDE</h3>
+
+<p><strong><em>Cách 1: Cài đặt online</em></strong></p>
+
+<ul>
+<li><p>Chạy Arduino IDE, vào menu File, chọn "Preferences", thêm dòng sau vào ô  "Additional Boards Manager URLs": <a href="https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_103_index.json">https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_103_index.json</a></p></li>
+<li>
+<p>Cài đặt dữ liệu "VNGIoTLab VBLUno nRF51822 Boards" thông qua Trình quản lý boards (Boards Manager) </p>
+
+<ul>
+<li>Từ menu: Tools -&gt; Board -&gt; Boards Manager ...</li>
+<li>Chọn VNGIoTLab VBLUno nRF51822 Boards và nhấn Install</li>
+</ul>
+</li>
+</ul>
+
+<p><strong><em>Cách 2: Cài đặt offline</em></strong></p>
+
+<ul>
+<li><p>Bạn cần chắc chắn Arduino IDE không được mở trong quá trình cài đặt offline.</p></li>
+<li>
+<p>Tải bản cài đặt phù hợp với hệ điều hành: </p>
+
+<ul>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Windows">Cho Windows</a></li>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Linux">Cho Linux</a></li>
+</ul>
+</li>
+<li>
+<p>Giải nén và chạy file cài đặt </p>
+
+<ul>
+<li>Windows: Setup_VBLUno_Windows.exe</li>
+<li>Linux: sudo ./Setup_VBLUno_Linux?? (??=32 hoặc 64). Chú ý phải sử dụng lệnh sudo</li>
+<li>Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="bootloaders" class="anchor" href="#bootloaders" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bootloaders</h2>
+
+<ul>
+<li><p>Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. <strong><em>Thông thường, bạn có thể bỏ qua bước này.</em></strong></p></li>
+<li><p>Trong thư mục "VNGIoTLab_VBLUno_nRF51822_board_v103\bootloader" có chứa file bootloader_57600.hex và mã nguồn tương ứng. Đây là bootloader cho phép Arduino IDE nạp (upload) firmware xuống VBLUno thông qua cổng nối tiếp.</p></li>
+<li><p>Để nạp bootloader, kết nối mạch với PC sử dụng mô đun CMSIS-DAP qua giao tiếp SWD (J5), nó sẽ tạo ra một ổ đĩa ảo (MBED), kéo thả bootloader.hex vào ổ đĩa ảo này.</p></li>
+</ul>
+
+<h2>
+<a id="bắt-đầu-sử-dụng" class="anchor" href="#b%E1%BA%AFt-%C4%91%E1%BA%A7u-s%E1%BB%AD-d%E1%BB%A5ng" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bắt đầu sử dụng</h2>
+
+<p><strong>1. Kết nối mạch VBLUno với PC thông qua cổng USB trên mạch.</strong></p>
+
+<ul>
+<li><p>Chuyển cầu nối trên jump J7 về vị trí cho phép nạp firmware qua cổng USB bằng bootloader (vị trí 1-2, gần phía Jack nguồn màu đen).</p></li>
+<li><p>Sau đó ấn nút Reset. Lúc này quan sát thấy sáng cả 2 led trên mạch.</p></li>
+</ul>
+
+<p><strong>2. Mở Arduino IDE trên PC</strong></p>
+
+<p><strong>3. Chọn board và cổng nối tiếp</strong></p>
+
+<ul>
+<li>
+<p>Chọn VNGIoTLab nRF51822 board từ menu của Arduino IDE:</p>
+
+<ul>
+<li>Menu &gt; Tools &gt; Board &gt; VBLUno nRF51822 (V1.0 32KB)</li>
+</ul>
+</li>
+<li>
+<p>Chọn cổng nối tiếp tương ứng của VBLUno:</p>
+
+<ul>
+<li>Menu &gt; Tools &gt; Port &gt; [tên cổng nối tiếp của VBLUno]</li>
+</ul>
+</li>
+</ul>
+
+<p><strong>4. Ví dụ nháy led (Blink)</strong></p>
+
+<ul>
+<li>
+<p>Để kiểm tra mạch, chúng tôi đề nghị bạn sử dụng ví dụ điều khiển nháy led sau.</p>
+
+<ul>
+<li>Menu &gt; File &gt; Examples &gt; 01.Basics &gt; Blink</li>
+</ul>
+</li>
+<li><p>Sử dụng chức năng upload (Menu -&gt; Sketch -&gt; Upload) để biên dịch chương trình và nạp firmware xuống mạch VBLUno.</p></li>
+<li><p>Nếu biên dịch và nạp thành công, bạn sẽ nhận được thông báo “Device programmed”</p></li>
+<li><p>Chuyển cầu nối trên jump J7 về vị trí cho phép chạy Application (vị trí 2-3, gần phía cổng USB)</p></li>
+</ul>
+
+<p><strong>5. Ví dụ cho BLE</strong></p>
+
+<ul>
+<li>Ngoài các ví dụ cơ bản của Arduino, VBLUno hỗ trợ sẵn nhiều ví dụ sử dụng giao tiếp Bluetooth Low Energy (BLE)</li>
+<li>
+<p>Bạn có thể thử các ví dụ bằng cách vào Menu &gt; File &gt; BLE_Examples</p>
+
+<p><em>BLE HRM</em>: This is an Heart Rate Monitor demo, it simulates Heart Rate detection. You can use Nordic nRFToolBox App to play.</p>
+
+<p><em>BLE Beacon</em>: This is to implement Apple's iBeacon, you can try it with our BeaconTool available in the AppStore for iOS and PlayStore for Android.</p>
+
+<p><em>Simple Controls</em>: This sample shows how to define your own protocol and to control the I/O of the board from a Central (e.g. iPhone) using the BLE Controller App.</p>
+
+<p><em>Simple Chat</em>: This sample allows you to send text message from the board to your central device such as iPhone or Android using the BLE Controller App.</p>
+
+<p><em>BLE Controller</em>: This example allows you to use the BLE Controller App (available for iOS and Android) to control the pin state such as High, Low, PWM, Analog, etc.</p>
+
+<p><em>BLE Serial</em>: This example allows you to exchange data with your central device (e.g. iPhone 5) and the data will be redirected to the UART.</p>
+
+<p><em>.....</em></p>
+</li>
+</ul>
+
+<h2>
+<a id="các-link-hữu-ích" class="anchor" href="#c%C3%A1c-link-h%E1%BB%AFu-%C3%ADch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Các link hữu ích</h2>
+
+<ul>
+<li><a href="http://iotviet.com.vn/store/detail?id=2">Website: www.iotviet.com.vn</a></li>
+<li><a href="https://www.facebook.com/bleviet/?fref=ts">Page Bluetooth Low Energy Vietnam - BLE</a></li>
+<li><a href="https://www.facebook.com/iotviet.vn/?fref=ts">Page Cộng đồng IoT Việt</a></li>
+</ul>
+
+<h2>
+<a id="các-video-demo-cho-vbluno-kit" class="anchor" href="#c%C3%A1c-video-demo-cho-vbluno-kit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Các video demo cho VBLUno kit</h2>
+
+<ol>
+<li><a href="https://www.youtube.com/watch?v=U4xNDTFVvXg">Ví dụ thực hiện BLE_Serial trên kit VBLUno với Arduino IDE - Ubuntu</a></li>
+</ol>
+
+<h2>
+<a id="giấy-phép" class="anchor" href="#gi%E1%BA%A5y-ph%C3%A9p" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Giấy phép</h2>
+
+<p>Bản quyền (c) 2016 VNGIoTLab</p>
+
+<p>Các tài liệu này được công bố dạng mã nguồn mở nhằm mục đích hỗ trợ cộng đồng phát triển. Ngoài ra cũng mong nhận được sự phản hồi, đóng góp từ cộng đồng.</p>
+
+<hr>
+
+<h1>
+<a id="english-language" class="anchor" href="#english-language" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>English Language</h1>
+
+<h2>
+<a id="note" class="anchor" href="#note" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note</h2>
+
+<ol>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial">TUTORIALS</a></li>
+<li>Current version: v1.0.3 (Fix some errors)</li>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit">Demo videos for VBLUno kit</a></li>
+<li>All issues you can meet when using Arduino IDE for VBLUno kit, you can post at <a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues">HERE</a>
+</li>
+</ol>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+
+<ol>
+<li>Adds support for the Arduino IDE enables compiling firmwares for the VBLUno_nRF51822 and BLE Nano development boards.</li>
+<li>Upload sketches over Serial (USB port on VBLUno)</li>
+<li>Provides BLE API for SoftDevice S130 with concurrent BLE Central and Peripheral role support.</li>
+<li>Install online and offline.</li>
+<li>Operating Systems (Current tested versions):
+
+<ul>
+<li>Microsoft Windows 7 – 64 bit.</li>
+<li>Microsoft Windows 10 – 64 bit.</li>
+<li>Ubuntu 14.04 LTS – 64 bit.</li>
+</ul>
+</li>
+</ol>
+
+<h2>
+<a id="hardware" class="anchor" href="#hardware" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hardware</h2>
+
+<ol>
+<li>
+<p><a href="http://iotviet.com.vn/store/detail?id=2">Kit VBLUno nRF51822 of VNGIoTLab</a></p>
+
+<ul>
+<li>Nordic nRF51822 with Cortex-M0 32bit CPU</li>
+<li>Bluetooth Low Energy interface</li>
+<li>Compatible with Arduino Uno pinout</li>
+<li>I2C, SPI, UART, SWD, 30 GPIOs</li>
+<li>256KB Flash</li>
+<li>32KB Ram</li>
+<li>Support Arduino, mbed,…</li>
+<li>Upload firmware: SWD (CMSIS-DAP), Serial</li>
+<li>Schematic: <a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/VBLUno_BLE_ARDUINO%20UNO%20SCHEMATIC.pdf">HERE</a>
+</li>
+<li>Pinout:  <img src="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/blob/master/VBLUno_Pinout.jpg" alt="alt tag">
+</li>
+</ul>
+</li>
+<li><p>Kit BLE_NANO and BLE_NANO_CIRCLE: <em>Coming soon</em></p></li>
+</ol>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a id="1-install-driver-for-chip-cp210x--usb-to-uart" class="anchor" href="#1-install-driver-for-chip-cp210x--usb-to-uart" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Install driver for chip CP210x – USB to UART</h3>
+
+<ul>
+<li><p>If you installed, you can pass this step</p></li>
+<li><p>Download suitable drivers at <a href="https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx">HERE</a> and then install</p></li>
+</ul>
+
+<h3>
+<a id="2-install-arduino-ide" class="anchor" href="#2-install-arduino-ide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Install Arduino IDE</h3>
+
+<ul>
+<li><p>If you installed, you can pass this step</p></li>
+<li><p>Download suitable software at <a href="http://arduino.cc/en/Main/Software">HERE</a> and then install.</p></li>
+<li>
+<p>Note: If you are using a Linux OS, you need to run Arduino IDE with root permission. This can help Arduino can open serial ports to upload firmware for VBLUno kit.</p>
+
+<ul>
+<li>Open Terminal (Ctrl + Alt + T)</li>
+<li>Moving  to directory which is already installed  Arduino by using “cd” command.
+               For example: cd /home/mrABC/arduino-1.6.10</li>
+<li>Open Arduino IDE by “sudo” command:  sudo ./aduino</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="3-install-packages-of-vbluno-board-for-arduino-ide" class="anchor" href="#3-install-packages-of-vbluno-board-for-arduino-ide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Install packages of VBLUno board for Arduino IDE</h3>
+
+<p>You can install by one of two methods following</p>
+
+<p><strong><em>Method 1: Install online</em></strong></p>
+
+<ul>
+<li><p>Open Arduino IDE, at File,select "Preferences", add the following line to "Additional Boards Manager URLs": <a href="https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_103_index.json">https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_103_index.json</a></p></li>
+<li>
+<p>Install the "VNGIoTLab VBLUno nRF51822 Boards" add-on via Boards Manager</p>
+
+<ul>
+<li>From menu bar: Tools -&gt; Board -&gt; Boards Manager ...</li>
+<li>Select VNGIoTLab VBLUno nRF51822 Boards and then click  Install</li>
+</ul>
+</li>
+</ul>
+
+<p><strong><em>Method 2: Install offline</em></strong></p>
+
+<ul>
+<li><p>You should be sured Arduino IDE cannot be opened while install offline.</p></li>
+<li>
+<p>Download suitable softwares for OS: </p>
+
+<ul>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Windows">For Windows</a></li>
+<li><a href="https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Linux">For Linux</a></li>
+</ul>
+</li>
+<li>
+<p>Extract and run setup file</p>
+
+<ul>
+<li>Windows: Setup_VBLUno_Windows.exe</li>
+<li>Linux: sudo ./Setup_VBLUno_Linux?? (??=32 or 64).</li>
+<li>You have to wait until the program announce “The installation was successful” </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="bootloaders-1" class="anchor" href="#bootloaders-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bootloaders</h2>
+
+<ul>
+<li><p>Bootloader helps Arduino IDE can upload firmware for VBLUno boards via serial ports.  VBLUno boards are sold , bootloaders are preloaded. <strong><em>Normally, you can skip this step.</em></strong></p></li>
+<li><p>In the folder is named "VNGIoTLab_VBLUno_nRF51822_board_v103\bootloader", it contains bootloader_57600.hex and  source code.</p></li>
+<li><p>To load bootloader, connect the board with your PC, using a CMSIS-DAP module via SWD interface (J5), it will create a virtual disk (MBED), drag and drop bootloader.hex into this disk.</p></li>
+</ul>
+
+<h2>
+<a id="how-to-play" class="anchor" href="#how-to-play" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to play</h2>
+
+<p><strong>1. Connect VBLUno board to PC via USB port</strong></p>
+
+<ul>
+<li><p>Switch bridge at jump J7 to position allow to upload firmware through serial ports (USB ports on VBLUno boards) by bootloaders (position 1-2, near black Power jack).</p></li>
+<li><p>Then press Reset button. At this time, two Leds on board are lighting up.</p></li>
+</ul>
+
+<p><strong>2. Open Arduino IDE</strong></p>
+
+<p><strong>3. Select board and serial port</strong></p>
+
+<ul>
+<li>
+<p>Select VNGIoTLab nRF51822 board from Arduino IDE menu:</p>
+
+<ul>
+<li>Menu &gt; Tools &gt; Board &gt; VBLUno nRF51822 (V1.0 32KB)</li>
+</ul>
+</li>
+<li>
+<p>Select the serial port of VBLUno board:</p>
+
+<ul>
+<li>Menu &gt; Tools &gt; Port &gt; [you board serial port name]</li>
+</ul>
+</li>
+</ul>
+
+<p><strong>4. Blink</strong></p>
+
+<ul>
+<li>
+<p>To test the board, we suggest you to load the Blink example to see if it works.</p>
+
+<ul>
+<li>Menu &gt; File &gt; Examples &gt; 01.Basics &gt; Blink</li>
+</ul>
+</li>
+<li><p>Use the upload icon to load the sketch to your board.</p></li>
+<li><p>If it is compiled and uploaded successfully, you will be received the annoucement  “Device programmed”</p></li>
+<li><p>Switch bridge at jump J7 to position allow to run Application (position 2-3, near USB port).</p></li>
+</ul>
+
+<p><strong>5. BLE Examples</strong></p>
+
+<ul>
+<li>Beside Arduino basic examples, VBLUno packages support some examples use Bluetooth Low Energy (BLE) interface.</li>
+<li>
+<p>You can try by select Menu &gt; File &gt; BLE_Examples</p>
+
+<p><em>BLE HRM</em>: This is an Heart Rate Monitor demo, it simulates Heart Rate detection. You can use Nordic nRFToolBox App to play.</p>
+
+<p><em>BLE Beacon</em>: This is to implement Apple's iBeacon, you can try it with our BeaconTool available in the AppStore for iOS and PlayStore for Android.</p>
+
+<p><em>Simple Controls</em>: This sample shows how to define your own protocol and to control the I/O of the board from a Central (e.g. iPhone) using the BLE Controller App.</p>
+
+<p><em>Simple Chat</em>: This sample allows you to send text message from the board to your central device such as iPhone or Android using the BLE Controller App.</p>
+
+<p><em>BLE Controller</em>: This example allows you to use the BLE Controller App (available for iOS and Android) to control the pin state such as High, Low, PWM, Analog, etc.</p>
+
+<p><em>BLE Serial</em>: This example allows you to exchange data with your central device (e.g. iPhone 5) and the data will be redirected to the UART.</p>
+
+<p><em>.....</em></p>
+</li>
+</ul>
+
+<h2>
+<a id="useful-links" class="anchor" href="#useful-links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Useful links</h2>
+
+<ul>
+<li><a href="http://iotviet.com.vn/store/detail?id=2">Website: www.iotviet.com.vn</a></li>
+<li><a href="https://www.facebook.com/bleviet/?fref=ts">Page Bluetooth Low Energy Vietnam - BLE</a></li>
+<li><a href="https://www.facebook.com/iotviet.vn/?fref=ts">Page IoT Viet Community</a></li>
+</ul>
+
+<h2>
+<a id="video-demos-for-vbluno-kit" class="anchor" href="#video-demos-for-vbluno-kit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video Demos for VBLUno Kit</h2>
+
+<ol>
+<li><a href="https://www.youtube.com/watch?v=U4xNDTFVvXg"> BLE_Serial example on VBLUno kit with Arduino IDE - Ubuntu</a></li>
+</ol>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>Copyright (c) 2016 VNGIoTLab</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/VNGIoTLab">VNGIoTLab</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>

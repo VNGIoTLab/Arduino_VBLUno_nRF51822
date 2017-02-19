@@ -9,7 +9,7 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
 
 ##Chú ý
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
-2. Phiên bản hiện tại: v1.0.4 (Đã sửa lỗi nạp chương trình qua Serial khi User name có ký tự khoảng cách)
+2. Phiên bản hiện tại: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước khi nâng cấp phiên bản, bạn cần remove phiên bản cũ hơn.
 3. [Các video demo sử dụng Arduino cho VBLUno kit](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#các-video-demo-cho-vbluno-kit)
 4. Mọi vấn đề gặp phải khi sử dụng Arduino IDE cho kit VBLUno, các bạn có thể viết tại [ĐÂY](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
@@ -23,6 +23,7 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
 	* Microsoft Windows 10 – 64 bit.
 	* Ubuntu 14.04 LTS – 64 bit.
 	* Ubuntu 16.04 LTS – 64 bit.
+	* MacOSX
 
 ##Phần cứng
 1. [Kit VBLUno nRF51822 của VNGIoTLab](http://iotviet.com.vn/store/detail?id=2)
@@ -161,7 +162,7 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 
 ##Note
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
-2. Current version: v1.0.4 (Fix some errors)
+2. Current version: v1.0.4 (Add installation for MacOSX). Before update version, you need to remove old versions.
 3. [Demo videos for VBLUno kit]( https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit)
 4. All issues you can meet when using Arduino IDE for VBLUno kit, you can post at [HERE](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 

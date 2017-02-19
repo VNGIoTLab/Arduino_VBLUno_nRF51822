@@ -13,7 +13,7 @@
 					"architecture":"nRF51822",
 					"version":"1.0.3",
 					"category":"VNGIoTLab",
-					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/archive/1.0.3.zip",
+					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/VBLUno_nRF51822_board.zip",
 					"archiveFileName":"VBLUno_nRF51822_board.zip",
 					"checksum":"SHA-256:74597C15EE809E90368E3196AC885F4C9327E7C8AD92A3E272A3DD37B0E4C62D",
 					"size":"5565143",
@@ -80,28 +80,28 @@
 						[
 					       {
 						  "host": "i686-linux-gnu",
-						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/archive/1.0.3.zip",
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-linux.zip",
 						  "archiveFileName": "nrfutil-0.5.1-linux.zip",
 						  "size": "3434558",
 						  "checksum": "SHA-256:BAADF16A76FB2726B9950E558659F1B33B7125B7843BD4E7EE1CCCB5496862DF"
 					      },
 					      {
 						  "host": "x86_64-pc-linux-gnu",
-						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/archive/1.0.3.zip",
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-linux.zip",
 						  "archiveFileName": "nrfutil-0.5.1-linux.zip",
 						  "size": "3434558",
 						  "checksum": "SHA-256:BAADF16A76FB2726B9950E558659F1B33B7125B7843BD4E7EE1CCCB5496862DF"
 					      },
 					      {
 						  "host": "x86_64-apple-darwin",
-						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/archive/1.0.3.zip",
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-mac.zip",
 						  "archiveFileName": "nrfutil-0.5.1-mac.zip",
 						  "size": "425039",
 						  "checksum": "SHA-256:9DA0F650426FA5340F689A46BE8CE9E732EBFE9146316510BEB29930A8E30E4C"
 					      },
 							{
 								"host":"i686-mingw32",
-								"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/archive/1.0.3.zip",
+								"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1.zip",
 								"archiveFileName":"nrfutil-0.5.1.zip",
 								"checksum":"SHA-256:EFED8D04F4749DFB19D8E02C964DD6292099E10B552E90DC0BEF5AD68BE8F1EC",
 								"size":"7305237"

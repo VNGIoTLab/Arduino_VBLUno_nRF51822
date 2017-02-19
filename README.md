@@ -9,7 +9,7 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
 
 ##Chú ý
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
-2. Phiên bản hiện tại: v1.0.3 (Đã sửa lỗi nạp chương trình qua Serial khi User name có ký tự khoảng cách)
+2. Phiên bản hiện tại: v1.0.4 (Đã sửa lỗi nạp chương trình qua Serial khi User name có ký tự khoảng cách)
 3. [Các video demo sử dụng Arduino cho VBLUno kit](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#các-video-demo-cho-vbluno-kit)
 4. Mọi vấn đề gặp phải khi sử dụng Arduino IDE cho kit VBLUno, các bạn có thể viết tại [ĐÂY](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
@@ -103,7 +103,7 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
 **3. Chọn board và cổng nối tiếp**
 
   * Chọn VNGIoTLab nRF51822 board từ menu của Arduino IDE:
-    * Menu > Tools > Board > VBLUno_V1_nRF51822_32KB(v1.0.3)
+    * Menu > Tools > Board > VBLUno_V1_nRF51822_32KB(v1.0.4)
 
   * Chọn cổng nối tiếp tương ứng của VBLUno:
     * Menu > Tools > Port > [tên cổng nối tiếp của VBLUno]
@@ -161,7 +161,7 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 
 ##Note
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
-2. Current version: v1.0.3 (Fix some errors)
+2. Current version: v1.0.4 (Fix some errors)
 3. [Demo videos for VBLUno kit]( https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit)
 4. All issues you can meet when using Arduino IDE for VBLUno kit, you can post at [HERE](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
@@ -257,7 +257,7 @@ You can install by one of two methods following
 **3. Select board and serial port**
 
   * Select VNGIoTLab nRF51822 board from Arduino IDE menu:
-    * Menu > Tools > Board > VBLUno_V1_nRF51822_32KB(v1.0.3)
+    * Menu > Tools > Board > VBLUno_V1_nRF51822_32KB(v1.0.4)
 
   * Select the serial port of VBLUno board:
     * Menu > Tools > Port > [you board serial port name]

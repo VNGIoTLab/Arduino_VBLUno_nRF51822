@@ -11,15 +11,15 @@
 				{
 					"name":"VNGIoTLab VBLUno nRF51822 Boards",
 					"architecture":"nRF51822",
-					"version":"1.0.3",
+					"version":"1.0.4",
 					"category":"VNGIoTLab",
-					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/VBLUno_nRF51822_board-103.zip",
-					"archiveFileName":"VBLUno_nRF51822_board-103.zip",
-					"checksum":"SHA-256:5C997BCF0A60F920C331A02FFBB25CD59B7269D02EEC19260E4FE449D423AB54",
+					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.4/VBLUno_nRF51822_board-104.zip",
+					"archiveFileName":"VBLUno_nRF51822_board-104.zip",
+					"checksum":"SHA-256:C1A33A8986736024844B91E5789078039A6983AADEE399988A398A78FF9B2587",
 					"size":"5564786",
 					"boards":
 						[
-							{"name":"VBLUno_V1_nRF51822_32KB(v1.0.3)"}
+							{"name":"VBLUno_V1_nRF51822_32KB(v1.0.4)"}
 						],
 					"toolsDependencies":
 						[
@@ -80,29 +80,29 @@
 						[
 					       {
 						  "host": "i686-linux-gnu",
-						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-linux-103.zip",
-						  "archiveFileName": "nrfutil-0.5.1-linux.zip",
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-linux-001.zip",
+						  "archiveFileName": "nrfutil-0.5.1-linux-001.zip",
 						  "size": "3434558",
 						  "checksum": "SHA-256:BAADF16A76FB2726B9950E558659F1B33B7125B7843BD4E7EE1CCCB5496862DF"
 					      },
 					      {
 						  "host": "x86_64-pc-linux-gnu",
-						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-linux-103.zip",
-						  "archiveFileName": "nrfutil-0.5.1-linux.zip",
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-linux-001.zip",
+						  "archiveFileName": "nrfutil-0.5.1-linux-001.zip",
 						  "size": "3434558",
 						  "checksum": "SHA-256:BAADF16A76FB2726B9950E558659F1B33B7125B7843BD4E7EE1CCCB5496862DF"
 					      },
 					      {
 						  "host": "x86_64-apple-darwin",
-						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-mac-103.zip",
-						  "archiveFileName": "nrfutil-0.5.1-mac.zip",
+						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-mac-001.zip",
+						  "archiveFileName": "nrfutil-0.5.1-mac-001.zip",
 						  "size": "425039",
 						  "checksum": "SHA-256:9DA0F650426FA5340F689A46BE8CE9E732EBFE9146316510BEB29930A8E30E4C"
 					      },
 							{
 								"host":"i686-mingw32",
-								"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-103.zip",
-								"archiveFileName":"nrfutil-0.5.1.zip",
+								"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.3/nrfutil-0.5.1-001.zip",
+								"archiveFileName":"nrfutil-0.5.1-001.zip",
 								"checksum":"SHA-256:EFED8D04F4749DFB19D8E02C964DD6292099E10B552E90DC0BEF5AD68BE8F1EC",
 								"size":"7305237"
 							}

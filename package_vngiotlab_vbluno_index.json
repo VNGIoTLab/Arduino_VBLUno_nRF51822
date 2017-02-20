@@ -96,8 +96,8 @@
 						  "host": "x86_64-apple-darwin",
 						  "url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.4/nrfutil-0.5.1-mac-002.zip",
 						  "archiveFileName": "nrfutil-0.5.1-mac-002.zip",
-						  "size": "397299",
-						  "checksum": "SHA-256:67F5F3AAFA26DD6F8D3C05ED65E9E29D330BE9361FC9C74F7A4BDE8C54E941BC"
+						  "size": "421036",
+						  "checksum": "SHA-256:9C7996264A5B3D3D99A124B66E85E8D09862602B19C256D316A2F45B21F4FCBE"
 					      },
 							{
 								"host":"i686-mingw32",

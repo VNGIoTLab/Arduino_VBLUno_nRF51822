@@ -64,7 +64,9 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
 
 **_Cách 1: Cài đặt online_**
 
-  * Chạy Arduino IDE, vào menu File, chọn "Preferences", thêm dòng sau vào ô  "Additional Boards Manager URLs": https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json
+  * Chạy Arduino IDE, vào menu File, chọn "Preferences", thêm dòng sau vào ô  "Additional Boards Manager URLs": `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
+  *Chú ý: * Bạn có thể thêm nhiều địa chỉ URLs tại đây, phân tách chúng bởi dấy phẩy. 	 
+  
      
   * Cài đặt dữ liệu "VNGIoTLab VBLUno nRF51822 Boards" thông qua Trình quản lý boards (Boards Manager) 
     * Từ menu: Tools -> Board -> Boards Manager ...
@@ -82,7 +84,9 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
     * Windows: Setup_VBLUno_Windows.exe
     * Linux: sudo ./Setup_VBLUno_Linux?? (??=32 hoặc 64). Chú ý phải sử dụng lệnh sudo
     * Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
-
+  
+  * Chú ý: Từ bây giờ, tại Preferences->Additional Boards Manager URLs luôn phải có nội dung sau (các packages khác nhau được phân tách bởi dấy phẩy):
+  `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
 ##Bootloaders
 	
 * Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. **_Thông thường, bạn có thể bỏ qua bước này._**
@@ -176,6 +180,7 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 	* Microsoft Windows 10 – 64 bit.
 	* Ubuntu 14.04 LTS – 64 bit.
 	* Ubuntu 16.04 LTS – 64 bit.
+	* MacOSX.
 
 ##Hardware
 1. [Kit VBLUno nRF51822 of VNGIoTLab](http://iotviet.com.vn/store/detail?id=2)
@@ -219,6 +224,7 @@ You can install by one of two methods following
 **_Method 1: Install online_**
 
   * Open Arduino IDE, at File,select "Preferences", add the following line to "Additional Boards Manager URLs": https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json
+  (You can add multiple URLs, separating them with commas)
      
   * Install the "VNGIoTLab VBLUno nRF51822 Boards" add-on via Boards Manager
     * From menu bar: Tools -> Board -> Boards Manager ...
@@ -236,6 +242,9 @@ You can install by one of two methods following
     * Windows: Setup_VBLUno_Windows.exe
     * Linux: sudo ./Setup_VBLUno_Linux?? (??=32 or 64).
     * You have to wait until the program announce “The installation was successful” 
+  
+  * Note: Preferences->Additional Boards Manager URLs always has this content (You can add multiple URLs, separating them with commas):
+  `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
 
 ##Bootloaders
 	

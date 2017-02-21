@@ -2,7 +2,7 @@
 
 
 #Linux - OS:
-Tải file "`Setup_Offline_VBLUno_Linux_104.zip"` tại [LINK](https://goo.gl/nxX7xi) , sau đó chạy file thực thi `sudo ./Setup_VBLUno_Linux` để cài đặt các gói hỗ trợ lập trình Arduino cho các bo mạch VBLUno của VNGIoTLab
+Tải file "`Setup_Offline_VBLUno_Linux_104.zip"` tại [LINK](http://www.mediafire.com/file/xu131aak6juqx54/Setup_Offline_VBLUno_Linux_104.zip) , sau đó chạy file thực thi `sudo ./Setup_VBLUno_Linux` để cài đặt các gói hỗ trợ lập trình Arduino cho các bo mạch VBLUno của VNGIoTLab
 
 
 

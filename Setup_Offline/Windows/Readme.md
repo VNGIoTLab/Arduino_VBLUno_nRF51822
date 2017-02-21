@@ -1,8 +1,8 @@
-Bộ cài đặt offline hỗ trợ sử dụng Arduino IDE cho mạch VBLUno của VNGIoTLab
+###Bộ cài đặt offline hỗ trợ sử dụng Arduino IDE cho mạch VBLUno của VNGIoTLab
 
 
 #Windows OS:
-http://www.mediafire.com/file/0wbn0xk4cy0a074/VBLUno_Setup_Window_v103_28_10_16.zip
+Tải "`Setup_Offline_VBLUno_Windows_104.zip"` tại địa chỉ `[https://goo.gl/l1jWne](https://goo.gl/l1jWne)` về máy, sau đó chạy file thực thi `Setup_VBLUno_Windows.exe` để cài đặt các gói hỗ trợ lập trình Arduino cho các bo mạch VBLUno của VNGIoTLab
 
 
 

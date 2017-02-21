@@ -1,8 +1,0 @@
-software=ARDUINO
-target_package=VNGIoTLab
-target_platform=nRF51822
-update.check=true
-update.id=
-upload.using=bootloader
-upload.verbose=true
-upload.verify=true

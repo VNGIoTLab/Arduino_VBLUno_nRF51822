@@ -33,7 +33,7 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
     * I2C, SPI, UART, SWD, 30 GPIOs
     * 256KB Flash
     * 32KB Ram
-    * Hỗ trợ Arduino, mbed,…
+    * Hỗ trợ Arduino, ARM mbed, Nordic SDK, Apache Mynewt, RIOT-OS…
     * Nạp firmware: SWD (CMSIS-DAP), Serial
     * Sơ đồ nguyên lý: [Xem tại đây](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/Schematic_and_Pinout/VBLUno_V1_BLE_ARDUINO_SCHEMATIC.pdf)
     * Hình ảnh sơ đồ chân: ![alt tag](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/blob/master/Schematic_and_Pinout/VBLUno_V1_Pinout.jpg)
@@ -79,10 +79,12 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
   * Tải bản cài đặt phù hợp với hệ điều hành: 
     * [Cho Windows](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Windows)
     * [Cho Linux](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Linux)
+	* [Cho MacOSX](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Mac)
 	  
+
   * Giải nén và chạy file cài đặt 
     * Windows: Setup_VBLUno_Windows.exe
-    * Linux: sudo ./Setup_VBLUno_Linux?? (??=32 hoặc 64). Chú ý phải sử dụng lệnh sudo
+    * Linux: sudo ./Setup_VBLUno_Linux . Chú ý phải sử dụng lệnh sudo
     * Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
   
   * Chú ý: Từ bây giờ, tại Preferences->Additional Boards Manager URLs luôn phải có nội dung sau (các packages khác nhau được phân tách bởi dấy phẩy):
@@ -190,7 +192,7 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
     * I2C, SPI, UART, SWD, 30 GPIOs
     * 256KB Flash
     * 32KB Ram
-    * Support Arduino, mbed,…
+    * Support Arduino, ARM mbed, Nordic SDK, Apache Mynewt, RIOT-OS…
     * Upload firmware: SWD (CMSIS-DAP), Serial
     * Schematic: [HERE](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/Schematic_and_Pinout/VBLUno_V1_BLE_ARDUINO_SCHEMATIC.pdf)
     * Pinout:  ![alt tag](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/blob/master/Schematic_and_Pinout/VBLUno_V1_Pinout.jpg)
@@ -237,10 +239,11 @@ You can install by one of two methods following
   * Download suitable softwares for OS: 
     * [For Windows](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Windows)
     * [For Linux](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Linux)
-	  
+	* [For MacOSX](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Mac)
+	
   * Extract and run setup file
     * Windows: Setup_VBLUno_Windows.exe
-    * Linux: sudo ./Setup_VBLUno_Linux?? (??=32 or 64).
+    * Linux: sudo ./Setup_VBLUno_Linux.
     * You have to wait until the program announce “The installation was successful” 
   
   * Note: Preferences->Additional Boards Manager URLs always has this content (You can add multiple URLs, separating them with commas):

@@ -2,7 +2,7 @@
 
 
 ###Xem tại đây:
-https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#ng%C3%B4n-ng%E1%BB%AF-ti%E1%BA%BFng-vi%E1%BB%87t
+https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#cài-đặt-các-thành-phần-cần-thiết
 
 
 
@@ -12,4 +12,4 @@ https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#ng%C3%B4n-ng%E1%BB%AF-ti%E1
 
 
 ###See here:
-https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#english-language
+https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#installation

@@ -12,12 +12,47 @@
 				{
 					"name": "VNGIoTLab VBLUno nRF51822 Boards",
 					"architecture": "nRF51822",
-					"version": "1.0.5",
+					"version": "2.0.0",
 					"category": "VNGIoTLab",
 					"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.0/VBLUno_nRF51822_board-200.zip",
 					"archiveFileName": "VBLUno_nRF51822_board-200.zip",
 					"checksum": "SHA-256:3CAB4EE7C30D316A1E147D614100E24BBEFE62365DB1FF1F295E349524F8A754",
 					"size": "5552150",
+					"boards": [
+						{
+							"name": "VBLUno_V1_nRF51822_32KB(v1.0.4)"
+						},
+						{
+							"name": "VBLUno_V2_DAPLink(v1.0.0)"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "VNGIoTLab",
+							"name": "arm-none-eabi-gcc",
+							"version": "4.8.3-2014q1"
+						},
+						{
+							"packager": "VNGIoTLab",
+							"name": "nrfutil",
+							"version": "0.5.1"
+						},
+						{
+							"packager": "VNGIoTLab",
+							"name": "flashvbluno2",
+							"version": "1.0.0"
+						}
+					]
+				},
+				{
+					"name": "VNGIoTLab VBLUno nRF51822 Boards",
+					"architecture": "nRF51822",
+					"version": "1.0.4",
+					"category": "VNGIoTLab",
+					"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.4/VBLUno_nRF51822_board-104.zip",
+					"archiveFileName": "VBLUno_nRF51822_board-104.zip",
+					"checksum": "SHA-256:2D6EB4A33C255E0035D2B2C7DC1FCD505507EEF0AE31C64719A75EA8C15D9D41",
+					"size": "5564797",
 					"boards": [
 						{
 							"name": "VBLUno_V1_nRF51822_32KB(v1.0.4)"
@@ -36,7 +71,6 @@
 						}
 					]
 				}
-			
 			],
 			"tools": [
 				{
@@ -104,6 +138,19 @@
 							"archiveFileName": "nrfutil-0.5.1-001.zip",
 							"checksum": "SHA-256:EFED8D04F4749DFB19D8E02C964DD6292099E10B552E90DC0BEF5AD68BE8F1EC",
 							"size": "7305237"
+						}
+					]
+				},
+				{
+					"name": "flashvbluno2",
+					"version": "1.0.0",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.0/flashvbluno2-1.0.0-001.zip",
+							"archiveFileName": "flashvbluno2-1.0.0-001.zip",
+							"checksum": "SHA-256:B2C870DFA93B4E34BC3CFF5253F915C124D550955DF38DC9202957D15492057C",
+							"size": "4138667"
 						}
 					]
 				}

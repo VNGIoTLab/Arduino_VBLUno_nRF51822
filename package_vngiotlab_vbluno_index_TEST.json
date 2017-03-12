@@ -21,9 +21,6 @@
 					"boards": [
 						{
 							"name": "VBLUno_V1_nRF51822_32KB(v1.0.4)"
-						},
-						{
-							"name": "VBLUno_V2_DAPLink(v1.0.0)"
 						}
 					],
 					"toolsDependencies": [
@@ -36,11 +33,6 @@
 							"packager": "VNGIoTLab",
 							"name": "nrfutil",
 							"version": "0.5.1"
-						},
-						{
-							"packager": "VNGIoTLab",
-							"name": "flashvbluno2",
-							"version": "1.0.0"
 						}
 					]
 				}

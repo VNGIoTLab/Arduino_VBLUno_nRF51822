@@ -40,34 +40,8 @@
 								"version":"1.0.0"
 							}
 						]
-				} ,
-        {
-					"name":"VNGIoTLab VBLUno nRF51822 Boards",
-					"architecture":"nRF51822",
-					"version":"1.0.4",
-					"category":"VNGIoTLab",
-					"url":"https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/1.0.4/VBLUno_nRF51822_board-104.zip",
-					"archiveFileName":"VBLUno_nRF51822_board-104.zip",
-					"checksum":"SHA-256:2D6EB4A33C255E0035D2B2C7DC1FCD505507EEF0AE31C64719A75EA8C15D9D41",
-					"size":"5564797",
-					"boards":
-						[
-							{"name":"VBLUno_V1_nRF51822_32KB(v1.0.4)"}
-						],
-					"toolsDependencies":
-						[
-							{
-								"packager":"VNGIoTLab",
-								"name":"arm-none-eabi-gcc",
-								"version":"4.8.3-2014q1"
-							},
-							{
-								"packager":"VNGIoTLab",
-								"name":"nrfutil",
-								"version":"0.5.1"
-							}
-						]
-				}
+				} 
+       
               
 			],
 		"tools":

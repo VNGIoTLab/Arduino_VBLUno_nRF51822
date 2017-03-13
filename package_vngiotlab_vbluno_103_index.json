@@ -16,8 +16,8 @@
 					"category": "VNGIoTLab",
 					"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.0/VBLUno_nRF51822_board-200.zip",
 					"archiveFileName": "VBLUno_nRF51822_board-200.zip",
-					"checksum": "SHA-256:FA13283CD136BCC34BF3CC2814101A9C141F10C11D738558C85384FB344AC37A",
-					"size": "5552208",
+					"checksum": "SHA-256:6A03BC88365E3DCF85388B8D9C3D796FEA12F9333509C5F1AA1725372894E5D1",
+					"size": "5621172",
 					"boards": [
 						{
 							"name": "VBLUno_V1_nRF51822_32KB(v1.0.4)"
@@ -151,6 +151,20 @@
 							"archiveFileName": "flashvbluno2-1.0.0-001.zip",
 							"checksum": "SHA-256:C604ECA06ABD67DB53009D950B4E8DEFF2017677C5C71A3A7C9240F745023292",
 							"size": "4282157"
+						},
+						{
+							"host": "i686-linux-gnu",
+							"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.0/flashvbluno2-1.0.0-linux-001.zip",
+							"archiveFileName": "flashvbluno2-1.0.0-linux-001.zip",
+							"checksum": "SHA-256:89CD4892CD3A8157E09057F260162F695AB522F37EC615357D48E942AA267BF5",
+							"size": "3484552"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.0/flashvbluno2-1.0.0-linux-001.zip",
+							"archiveFileName": "flashvbluno2-1.0.0-linux-001.zip",
+							"checksum": "SHA-256:89CD4892CD3A8157E09057F260162F695AB522F37EC615357D48E942AA267BF5",
+							"size": "3484552"
 						}
 					]
 				}

@@ -1,5 +1,5 @@
-#VNGIoTLab VBLUno nRF51822 kit (version 1) on Arduino IDE
-These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (version 1)
+#VNGIoTLab VBLUno nRF518 boards (version 1 & 2) on Arduino IDE
+These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (version 1 & 2)
 
 ##Lựa chọn ngôn ngữ / Select language:
 1. [Ngôn ngữ tiếng Việt](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#ngôn-ngữ-tiếng-việt)
@@ -9,7 +9,9 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
 
 ##Chú ý
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
-2. Phiên bản hiện tại: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước khi nâng cấp phiên bản, bạn cần remove phiên bản cũ hơn.
+
+2. Phiên bản hiện tại: v2.0.0 (Bổ sung gói cài đặt cho VBLUno version 2, nạp tự động qua DAPLink ).
+Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước khi nâng cấp phiên bản, bạn cần remove phiên bản cũ hơn.
 3. [Các video demo sử dụng Arduino cho VBLUno kit](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#các-video-demo-cho-vbluno-kit)
 4. Mọi vấn đề gặp phải khi sử dụng Arduino IDE cho kit VBLUno, các bạn có thể viết tại [ĐÂY](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
@@ -84,7 +86,10 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE kit (ver
 
   * Giải nén và chạy file cài đặt 
     * Windows: Setup_VBLUno_Windows.exe
-    * Linux: sudo ./Setup_VBLUno_Linux . Chú ý phải sử dụng lệnh sudo
+    * Linux: 
+    `cd Setup_Offline_VBLUno_Linux_xxx`
+   `chmod 777 Setup_VBLUno_Linux`
+    `sudo ./Setup_VBLUno_Linux` . Chú ý phải sử dụng lệnh sudo
     * Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
   
   * Chú ý: Từ bây giờ, tại Preferences->Additional Boards Manager URLs luôn phải có nội dung sau (các packages khác nhau được phân tách bởi dấy phẩy):
@@ -168,7 +173,8 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 
 ##Note
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
-2. Current version: v1.0.4 (Add installation for MacOSX). Before update version, you need to remove old versions.
+2. Current version: v2.0.0 (Support for VBLUno version 2, auto upload firmware over DAPLink interface).
+Version: v1.0.4 (Add installation for MacOSX). Before update version, you need to remove old versions.
 3. [Demo videos for VBLUno kit]( https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit)
 4. All issues you can meet when using Arduino IDE for VBLUno kit, you can post at [HERE](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
@@ -243,7 +249,10 @@ You can install by one of two methods following
 	
   * Extract and run setup file
     * Windows: Setup_VBLUno_Windows.exe
-    * Linux: sudo ./Setup_VBLUno_Linux.
+    * Linux: 
+    `cd Setup_Offline_VBLUno_Linux_xxx`
+   `chmod 777 Setup_VBLUno_Linux`
+    `sudo ./Setup_VBLUno_Linux` 
     * You have to wait until the program announce “The installation was successful” 
   
   * Note: Preferences->Additional Boards Manager URLs always has this content (You can add multiple URLs, separating them with commas):

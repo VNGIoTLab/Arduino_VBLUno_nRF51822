@@ -93,17 +93,17 @@
 						},
 						{
 							"host": "x86_64-pc-linux-gnu",
-							"url": "https://drive.google.com/open?id=0B6MXs-dH-jsfdGZZUHJ2TmdCM1E",
+							"url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
 							"archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-							"checksum": "SHA-256:0B33D9C7A5C933BA4D1250F569782B9AF374A315D0CAE56706C32C782DA632C7",
-							"size": "59441538"
+							"checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+							"size": "51395093"
 						},
 						{
 							"host": "i686-pc-linux-gnu",
-							"url": "https://drive.google.com/open?id=0B6MXs-dH-jsfLUd0bEFpeWJpMWc",
+							"url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
 							"archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
-							"checksum": "SHA-256:367745EBAD8DB5B276E34D6A7C6CBBF9B8DE1C0F063FF97AF9505607256630DC",
-							"size": "59386780"
+							"checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+							"size": "51029223"
 						}
 					]
 				},

@@ -1,13 +1,13 @@
-#VNGIoTLab VBLUno nRF518 boards (version 1 & 2) on Arduino IDE
+# VNGIoTLab VBLUno nRF518 boards (version 1 & 2) on Arduino IDE
 These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (version 1 & 2)
 
-##Lựa chọn ngôn ngữ / Select language:
+## Lựa chọn ngôn ngữ / Select language:
 1. [Ngôn ngữ tiếng Việt](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#ngôn-ngữ-tiếng-việt)
 2. [English language](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#english-language)
 
-#Ngôn ngữ tiếng Việt
+# Ngôn ngữ tiếng Việt
 
-##Chú ý
+## Chú ý
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
 
 2. Phiên bản hiện tại: v2.0.0 (Bổ sung gói cài đặt cho VBLUno version 2, nạp tự động qua DAPLink ).
@@ -15,7 +15,7 @@ Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước kh
 3. [Các video demo sử dụng Arduino cho VBLUno kit](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#các-video-demo-cho-vbluno-kit)
 4. Mọi vấn đề gặp phải khi sử dụng Arduino IDE cho kit VBLUno, các bạn có thể viết tại [ĐÂY](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
-##Tính năng
+## Tính năng
 1. Các tài nguyên này cho phép sử dụng Arduino IDE để lập trình, biên dịch chương trình điều khiển (firmware) cho mạch phát triển VBLUno và BLE Nano.
 2. Nạp firmware cho mạch qua cổng nối tiếp (Cổng USB trên mạch VBLUno)
 3. Cung cấp các hàm API giao tiếp Bluetooth Low Energy (BLE) cho SoftDevice S130, hỗ trợ vai trò BLE Central và BLE Peripheral.
@@ -27,7 +27,7 @@ Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước kh
 	* Ubuntu 16.04 LTS – 64 bit.
 	* MacOSX
 
-##Phần cứng
+## Phần cứng
 1. [Kit VBLUno nRF51822 của VNGIoTLab](http://iotviet.com.vn/store/detail?id=2)
     * Chip Nordic nRF51822 với lõi Cortex-M0 32bit
     * Giao tiếp Bluetooth Low Energy
@@ -40,16 +40,16 @@ Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước kh
     * Sơ đồ nguyên lý: [Xem tại đây](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/raw/master/Schematic_and_Pinout/VBLUno_V1_BLE_ARDUINO_SCHEMATIC.pdf)
     * Hình ảnh sơ đồ chân: ![alt tag](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/blob/master/Schematic_and_Pinout/VBLUno_V1_Pinout.jpg)
 
-##Cài đặt các thành phần cần thiết
+## Cài đặt các thành phần cần thiết
 
-###1. Cài đặt trình điều khiển cho chip CP210x – USB to UART
+### 1. Cài đặt trình điều khiển cho chip CP210x – USB to UART
 
 * Nếu đã cài đặt, bạn có thể  bỏ qua bước này
 
 * Thực hiện: Tải trình điều khiển phù hợp tại [ĐÂY](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx) và cài đặt vào máy
           
 
-###2. Cài đặt Arduino IDE
+### 2. Cài đặt Arduino IDE
 
 * Nếu đã cài đặt, bạn có thể  bỏ qua bước này
 
@@ -62,7 +62,7 @@ Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước kh
     * Mở Arduino IDE với lệnh sudo: sudo ./aduino
 
 
-###3. Cài đặt gói dữ liệu của mạch VBLUno cho Arduino IDE
+### 3. Cài đặt gói dữ liệu của mạch VBLUno cho Arduino IDE
 
 **_Cách 1: Cài đặt online_**
 
@@ -94,7 +94,7 @@ Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước kh
   
   * Chú ý: Từ bây giờ, tại Preferences->Additional Boards Manager URLs luôn phải có nội dung sau (các packages khác nhau được phân tách bởi dấy phẩy):
   `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
-##Bootloaders
+## Bootloaders
 	
 * Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. **_Thông thường, bạn có thể bỏ qua bước này._**
 
@@ -102,7 +102,7 @@ Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước kh
 
 * Để nạp bootloader, kết nối mạch với PC sử dụng mô đun CMSIS-DAP qua giao tiếp SWD (J5), nó sẽ tạo ra một ổ đĩa ảo (MBED), kéo thả bootloader.hex vào ổ đĩa ảo này.
 
-##Bắt đầu sử dụng
+## Bắt đầu sử dụng
 
 **1. Kết nối mạch VBLUno với PC thông qua cổng USB trên mạch.**
 
@@ -151,17 +151,17 @@ Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước kh
 
 
 
-##Các link hữu ích
+## Các link hữu ích
 
 - [Website: www.iotviet.com.vn](http://iotviet.com.vn/store/detail?id=2)
 - [Page Bluetooth Low Energy Vietnam - BLE](https://www.facebook.com/bleviet/?fref=ts)
 - [Page Cộng đồng IoT Việt](https://www.facebook.com/iotviet.vn/?fref=ts)
 
-##Các video demo cho VBLUno kit
+## Các video demo cho VBLUno kit
 
 1. [Ví dụ thực hiện BLE_Serial trên kit VBLUno với Arduino IDE - Ubuntu](https://www.youtube.com/watch?v=U4xNDTFVvXg)
 
-##Giấy phép
+## Giấy phép
 
 Bản quyền (c) 2016 VNGIoTLab
 
@@ -169,16 +169,16 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-#English Language
+# English Language
 
-##Note
+## Note
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
 2. Current version: v2.0.0 (Support for VBLUno version 2, auto upload firmware over DAPLink interface).
 Version: v1.0.4 (Add installation for MacOSX). Before update version, you need to remove old versions.
 3. [Demo videos for VBLUno kit]( https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit)
 4. All issues you can meet when using Arduino IDE for VBLUno kit, you can post at [HERE](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
-##Features
+## Features
 1. Adds support for the Arduino IDE enables compiling firmwares for the VBLUno_nRF51822 and BLE Nano development boards.
 2. Upload sketches over Serial (USB port on VBLUno)
 3. Provides BLE API for SoftDevice S130 with concurrent BLE Central and Peripheral role support.
@@ -190,7 +190,7 @@ Version: v1.0.4 (Add installation for MacOSX). Before update version, you need t
 	* Ubuntu 16.04 LTS – 64 bit.
 	* MacOSX.
 
-##Hardware
+## Hardware
 1. [Kit VBLUno nRF51822 of VNGIoTLab](http://iotviet.com.vn/store/detail?id=2)
     * Nordic nRF51822 with Cortex-M0 32bit CPU
     * Bluetooth Low Energy interface
@@ -204,16 +204,16 @@ Version: v1.0.4 (Add installation for MacOSX). Before update version, you need t
     * Pinout:  ![alt tag](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/blob/master/Schematic_and_Pinout/VBLUno_V1_Pinout.jpg)
 
 
-##Installation
+## Installation
 
-###1. Install driver for chip CP210x – USB to UART
+### 1. Install driver for chip CP210x – USB to UART
 
 * If you installed, you can pass this step
 
 * Download suitable drivers at [HERE](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx) and then install
           
 
-###2. Install Arduino IDE
+### 2. Install Arduino IDE
 
 * If you installed, you can pass this step
 
@@ -226,7 +226,7 @@ Version: v1.0.4 (Add installation for MacOSX). Before update version, you need t
     * Open Arduino IDE by “sudo” command:  sudo ./aduino
 
 
-###3. Install packages of VBLUno board for Arduino IDE
+### 3. Install packages of VBLUno board for Arduino IDE
 You can install by one of two methods following
 
 **_Method 1: Install online_**
@@ -258,7 +258,7 @@ You can install by one of two methods following
   * Note: Preferences->Additional Boards Manager URLs always has this content (You can add multiple URLs, separating them with commas):
   `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
 
-##Bootloaders
+## Bootloaders
 	
 * Bootloader helps Arduino IDE can upload firmware for VBLUno boards via serial ports.  VBLUno boards are sold , bootloaders are preloaded. **_Normally, you can skip this step._**
 
@@ -266,7 +266,7 @@ You can install by one of two methods following
 
 * To load bootloader, connect the board with your PC, using a CMSIS-DAP module via SWD interface (J5), it will create a virtual disk (MBED), drag and drop bootloader.hex into this disk.
 
-##How to play
+## How to play
 
 **1. Connect VBLUno board to PC via USB port**
 
@@ -315,7 +315,7 @@ You can install by one of two methods following
 
 
 
-##Useful links
+## Useful links
 
 - [Website: www.iotviet.com.vn](http://iotviet.com.vn/store/detail?id=2)
 - [Page Bluetooth Low Energy Vietnam - BLE](https://www.facebook.com/bleviet/?fref=ts)
@@ -325,7 +325,7 @@ You can install by one of two methods following
 
 1. [ BLE_Serial example on VBLUno kit with Arduino IDE - Ubuntu](https://www.youtube.com/watch?v=U4xNDTFVvXg)
 
-##License
+## License
 
 Copyright (c) 2016 VNGIoTLab
 

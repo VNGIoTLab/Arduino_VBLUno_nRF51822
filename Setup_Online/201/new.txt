@@ -1,0 +1,18 @@
+- Add flag "-u _printf_float" into Makefile to use sprintf function for Float Number
+
+- Support the VNG VBLUno51 board
+  + nRF51822
+  + Auto upload via DAPLink interface (flashvbluno51 tool)
+  + Support Hardware Flow Control for UART communication
+  
+- Support Hardware Flow Control for UART Communication
+  + Default: Using Default config for RX, TX, RTS, CTS pin
+    RX: D0
+    TX: D1
+    RTS: D24  (Not on Header)
+    CTS: D25  (Not on Header)
+  Use Serial.begin(baud) function for default config    
+  
+  + Can use Serial.begin(baud, rx, tx, rts, cts) to modify hardware config
+
+- Improve compile speed from 2nd time onwards

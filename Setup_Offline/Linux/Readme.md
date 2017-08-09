@@ -10,7 +10,7 @@
 
 * *Hỗ trợ mạch VBLUno51, nạp tự động qua DAPLink cho Arduino IDE*
 
-* Tải file "`Setup_Offline_VBLUno_Linux_201.zip"` tại [LINK201](http://www.mediafire.com/file/rvbgfxr73kbqa3q/Setup_Offline_VBLUno_Linux_201.zip) , 
+* Tải file "`Setup_Offline_VBLUno_Linux_201.zip"` tại [LINK201](http://www.mediafire.com/file/rvbgfxr73kbqa3q/Setup_Offline_VBLUno_Linux_201.zip)  
 
 ### v1.0.4
 
@@ -21,7 +21,9 @@
 - Trong quá trình cài đặt cần chắc chắn phần mềm Arduino IDE không được thực thi.
 
 `cd Setup_Offline_VBLUno_Linux_xxx`
+
 `sudo chmod 777 Setup_VBLUno_Linux`
+
 `sudo ./Setup_VBLUno_Linux` 
 
 * Chi tiết xem tại: https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#cài-đặt-các-thành-phần-cần-thiết
@@ -43,7 +45,9 @@
 - During installation make sure Arduino IDE software is not executed.
 
 `cd Setup_Offline_VBLUno_Linux_xxx`
+
 `sudo chmod 777 Setup_VBLUno_Linux`
+
 `sudo ./Setup_VBLUno_Linux` 
 
 * Details: https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/#3-install-packages-of-vbluno-board-for-arduino-ide

@@ -91,10 +91,14 @@ Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước kh
   * Giải nén và chạy file cài đặt 
     * Windows: Setup_VBLUno_Windows.exe
     * Linux: 
-    `cd Setup_Offline_VBLUno_Linux_xxx`
-   `chmod 777 Setup_VBLUno_Linux`
-    `sudo ./Setup_VBLUno_Linux` . Chú ý phải sử dụng lệnh sudo
-    * Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
+    
+`cd Setup_Offline_VBLUno_Linux_xxx`
+
+`sudo chmod 777 Setup_VBLUno_Linux`
+
+`sudo ./Setup_VBLUno_Linux` . Chú ý phải sử dụng lệnh sudo
+
+   * Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
   
   * Chú ý: Từ bây giờ, tại Preferences->Additional Boards Manager URLs luôn phải có nội dung sau (các packages khác nhau được phân tách bởi dấy phẩy):
   `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
@@ -257,10 +261,14 @@ You can install by one of two methods following
   * Extract and run setup file
     * Windows: Setup_VBLUno_Windows.exe
     * Linux: 
-    `cd Setup_Offline_VBLUno_Linux_xxx`
-   `chmod 777 Setup_VBLUno_Linux`
-    `sudo ./Setup_VBLUno_Linux` 
-    * You have to wait until the program announce “The installation was successful” 
+    
+`cd Setup_Offline_VBLUno_Linux_xxx`
+
+`sudo chmod 777 Setup_VBLUno_Linux`
+
+`sudo ./Setup_VBLUno_Linux` 
+
+   * You have to wait until the program announce “The installation was successful” 
   
   * Note: Preferences->Additional Boards Manager URLs always has this content (You can add multiple URLs, separating them with commas):
   `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
@@ -304,7 +312,7 @@ You can install by one of two methods following
 
 **5. BLE Examples**
   * Beside Arduino basic examples, VBLUno packages support some examples use Bluetooth Low Energy (BLE) interface.
-  * You can try by select Menu > File > BLE_Examples
+  * You can try by select Menu > File > Examples > BLE_Examples
 
 	*BLE HRM*: This is an Heart Rate Monitor demo, it simulates Heart Rate detection. You can use Nordic nRFToolBox App to play.
 

@@ -250,11 +250,11 @@ sudo udevadm control --reload
 
 * You can skip this step if the Arduino IDE has been installed before.
 
-* Download suitable software at [HERE](http://arduino.cc/en/Main/Software) and then install.s
+* Download suitable software at [HERE](http://arduino.cc/en/Main/Software) and then install.
 
 
 ### 3. Install packages of VBLUno board for Arduino IDE
-You can install by one of two methods following
+You can install with one of two following methods:
 
 **_Method 1: Install online_**
 
@@ -267,12 +267,12 @@ You can install by one of two methods following
 
 **_Method 2: Install offline_**
 
-  * You should be sured Arduino IDE cannot be opened while install offline.
+  * You should be sure that Arduino IDE is not opened while installing offline.
 
   * Download suitable softwares for OS:
     * [For Windows](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Windows)
     * [For Linux](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Linux)
-	* [For MacOSX](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Mac)
+    * [For MacOSX](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Mac)
 
   * Extract and run setup file
     * Windows: Setup_VBLUno_Windows.exe
@@ -284,24 +284,24 @@ You can install by one of two methods following
 
 `sudo ./Setup_VBLUno_Linux`
 
-   * You have to wait until the program announce “The installation was successful”
+  * You have to wait until the program announces “The installation was successful”
 
-  * Note: Preferences->Additional Boards Manager URLs always has this content (You can add multiple URLs, separating them with commas):
+  * Note: _Preferences->Additional Boards Manager_ URLs always has this content (You can add multiple URLs, separating them with commas):
   `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
 
 ## Bootloaders
 
-* Bootloader helps Arduino IDE can upload firmware for VBLUno boards via serial ports.  VBLUno boards are sold , bootloaders are preloaded. **_Normally, you can skip this step._**
+* Bootloader helps Arduino IDE upload firmware to VBLUno boards via serial ports.  VBLUno boards sold on the market already includes bootloaders. **_Normally, you can skip this step._**
 
-* In the folder is named "VBLUno_nRF51822_board\bootloader", it contains bootloader_38400.hex and  source code.
+* In the "VBLUno_nRF51822_board\bootloader" folder, there are bootloader_38400.hex and its source code.
 
-* To load bootloader, connect the board with your PC, using a CMSIS-DAP module via SWD interface (J5), it will create a virtual disk (MBED), drag and drop bootloader.hex into this disk.
+* To load bootloader, connect the board with your PC, use a CMSIS-DAP module via SWD interface (J5), it will create a virtual disk (MBED). Drag and drop bootloader.hex into this disk.
 
 ## How to play
 
 **1. Connect VBLUno board to PC via USB port**
 
-  * Switch bridge at jump J7 to position allow to upload firmware through serial ports (USB ports on VBLUno boards) by bootloaders (position 1-2, near black Power jack).
+  * Switch bridge at jump J7 to the position which allows to upload firmware via serial ports (USB ports on VBLUno boards) by bootloaders (position 1-2, near black Power jack).
 
   * Then press Reset button. At this time, two Leds on board are lighting up.
 

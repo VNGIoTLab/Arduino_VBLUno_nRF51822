@@ -1,0 +1,1 @@
+- Fix error of Serial function when use external Power, battery 

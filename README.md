@@ -1,4 +1,4 @@
-# VNGIoTLab VBLUno nRF518 boards (version 1 & 2) on Arduino IDE
+# VNGIoTLab VBLUno nRF51822 boards (version 1 & 2) on Arduino IDE
 These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (version 1 & 2)
 
 ## Lựa chọn ngôn ngữ / Select language:
@@ -14,9 +14,12 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (
 
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
 
-2. Phiên bản hiện tại: v2.0.0 (Bổ sung gói cài đặt cho VBLUno version 2, nạp tự động qua DAPLink ).
-Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước khi nâng cấp phiên bản, bạn cần remove phiên bản cũ hơn.
+2. Phiên bản hiện tại: v2.0.2 (Hỗ trợ VBLUno51).
+	
+	Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước khi nâng cấp phiên bản, bạn cần remove phiên bản cũ hơn.
+
 3. [Các video demo sử dụng Arduino cho VBLUno kit](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#các-video-demo-cho-vbluno-kit)
+
 4. Mọi vấn đề gặp phải khi sử dụng Arduino IDE cho kit VBLUno, các bạn có thể viết tại [ĐÂY](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
 ## Tính năng
@@ -184,9 +187,13 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 **0. DOCUMENTS, USER MANUALS, TUTORIALS FOR THE VBLUNO51 BOARD, PLEASE ACCESS [VBLUNO51 WIKI PAGES](https://vngiotlab.github.io/vbluno/)**
 
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
-2. Current version: v2.0.0 (Support for VBLUno version 2, auto upload firmware over DAPLink interface).
-Version: v1.0.4 (Add installation for MacOSX). Before update version, you need to remove old versions.
+
+2. Current version: v2.0.2 (Support for the VBLUno51 board).
+
+	Version: v1.0.4 (Add installation for MacOSX). Before update version, you need to remove old versions.
+
 3. [Demo videos for VBLUno kit]( https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822#video-demos-for-vbluno-kit)
+
 4. All issues you can meet when using Arduino IDE for VBLUno kit, you can post at [HERE](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/issues)
 
 ## Features

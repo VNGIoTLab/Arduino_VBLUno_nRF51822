@@ -6,6 +6,10 @@
 ***
 ## Tiếng Việt:
 
+### v2.0.2
+* Fix serial bug
+* Tải file "`Setup_Offline_VBLUno_Windows_202.zip"` tại [LINK202](http://www.mediafire.com/file/dxuaxav4f2u89oa/Setup_Offline_VBLUno_Windows_202.zip)
+
 ### v2.0.1
 * *Hỗ trợ bo mạch VBLUno51, nạp tự động qua DAPLink*
 * Tải file "`Setup_Offline_VBLUno_Windows_201.zip"` tại [LINK201](http://www.mediafire.com/file/gpa2f9lfdg11k6u/Setup_Offline_VBLUno_Windows_201.zip)
@@ -20,6 +24,10 @@ Chạy file thực thi `Setup_VBLUno_Windows.exe` để cài đặt các gói h�
 
 ***
 ## English:
+
+### v2.0.2
+* Fix serial bug
+* Download file "`Setup_Offline_VBLUno_Windows_202.zip"` at [LINK202](http://www.mediafire.com/file/dxuaxav4f2u89oa/Setup_Offline_VBLUno_Windows_202.zip)
 
 ### v2.0.1
 * *Support the VBLUno51 board of VNGIoTLab, auto upload via DAPLink interface for Arduino IDE*

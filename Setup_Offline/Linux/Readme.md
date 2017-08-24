@@ -6,6 +6,13 @@
 *** 
 ## Tiếng Việt
 
+### v2.0.2
+
+* Sửa lỗi Serial khi không cắm nguồn từ cổng USB.
+
+* Tải file "`Setup_Offline_VBLUno_Linux_202.zip"` tại [LINK202](http://www.mediafire.com/file/4jd4gy50rewqd70/Setup_Offline_VBLUno_Linux_202.zip)  
+
+
 ### v2.0.1 
 
 * *Hỗ trợ mạch VBLUno51, nạp tự động qua DAPLink cho Arduino IDE*
@@ -30,6 +37,12 @@
 
 ***
 ## English
+
+### v2.0.2
+
+* Fix Serial bug when do not use USB cable.
+
+* Download file "`Setup_Offline_VBLUno_Linux_202.zip"` at [LINK202](http://www.mediafire.com/file/4jd4gy50rewqd70/Setup_Offline_VBLUno_Linux_202.zip)
 
 ### v2.0.1
 

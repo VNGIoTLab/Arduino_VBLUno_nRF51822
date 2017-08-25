@@ -55,6 +55,22 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (
 
 * Thực hiện: Tải trình điều khiển phù hợp tại [ĐÂY](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx) và cài đặt vào máy
           
+* Nếu sử dụng Linux, bạn không cần trình điều khiển, nhưng cần tạo udev rule để yêu cầu hệ thống tự  thay đổi quyền truy cập thiết bị "USB to UART". Bạn tạo file _90-arduino-usb0.rules_ với nội dung như sau:
+
+```
+# Set owner "user" for Serial-to-USB device
+SUBSYSTEM=="tty", KERNEL=="ttyUSB0", OWNER="user"
+SUBSYSTEM=="tty", KERNEL=="ttyACM0", OWNER="user"
+SUBSYSTEM=="tty", KERNEL=="ttyACM1", OWNER="user"
+SUBSYSTEM=="tty", KERNEL=="ttyACM2", OWNER="user"
+```
+
+nhưng thay thế _user_ với username Linux của bạn. Sau đó copy file vào _/etc/udev/rules.d/_
+
+```sh
+sudo cp 90-arduino-usb0.rules /etc/udev/rules.d/
+sudo udevadm control --reload
+```
 
 ### 2. Cài đặt Arduino IDE
 
@@ -62,11 +78,6 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (
 
 * Thực hiện: Tải bản cài đặt phù hợp tại [ĐÂY](http://arduino.cc/en/Main/Software) và cài đặt vào máy. 
 
-* Chú ý: Nếu bạn đang sử dụng hệ điều hành Linux (tương tự với MacOSX), cần chạy Arduino IDE với quyền root. Điều này giúp Arduino IDE có thể mở cổng nối tiếp (UART) để nạp firmware cho mạch VBLUno.
-    * Mở Terminal (Ctrl + Alt + T)
-    * Chuyển đến thư mục đã cài đặt Arduino bằng cách sử dụng lệnh “cd”. 
-                       Ví dụ cd /home/mrABC/arduino-1.6.10
-    * Mở Arduino IDE với lệnh sudo: sudo ./aduino
 
 
 ### 3. Cài đặt gói dữ liệu của mạch VBLUno cho Arduino IDE
@@ -74,9 +85,8 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (
 **_Cách 1: Cài đặt online_**
 
   * Chạy Arduino IDE, vào menu File, chọn "Preferences", thêm dòng sau vào ô  "Additional Boards Manager URLs": `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
-  *Chú ý: * Bạn có thể thêm nhiều địa chỉ URLs tại đây, phân tách chúng bởi dấy phẩy. 	 
-  
-     
+  *Chú ý: * Bạn có thể thêm nhiều địa chỉ URLs tại đây, phân tách chúng bởi dấy phẩy. 
+
   * Cài đặt dữ liệu "VNGIoTLab VBLUno nRF51822 Boards" thông qua Trình quản lý boards (Boards Manager) 
     * Từ menu: Tools -> Board -> Boards Manager ...
     * Chọn VNGIoTLab VBLUno nRF51822 Boards và nhấn Install
@@ -97,16 +107,16 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (
     
 `cd Setup_Offline_VBLUno_Linux_xxx`
 
-`sudo chmod 777 Setup_VBLUno_Linux`
+`chmod a+x Setup_VBLUno_Linux`
 
-`sudo ./Setup_VBLUno_Linux` . Chú ý phải sử dụng lệnh sudo
+`./Setup_VBLUno_Linux`
 
    * Bạn chờ đến khi chương trình thông báo “The installation was successful” là quá trình cài đặt đã hoàn thành.
   
   * Chú ý: Từ bây giờ, tại Preferences->Additional Boards Manager URLs luôn phải có nội dung sau (các packages khác nhau được phân tách bởi dấy phẩy):
   `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
 ## Bootloaders
-	
+
 * Bootloader giúp Arduino IDE nạp firmware cho VBLUno thông qua cổng USB gắn trên mạch (USB to UART). Mạch VBLUno khi bán ra đã được nạp sẵn bootloader. **_Thông thường, bạn có thể bỏ qua bước này._**
 
 * Trong thư mục "VBLUno_nRF51822_board\bootloader" có chứa file bootloader_38400.hex và mã nguồn tương ứng. Đây là bootloader cho phép Arduino IDE nạp (upload) firmware xuống VBLUno thông qua cổng nối tiếp.
@@ -118,7 +128,7 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (
 **1. Kết nối mạch VBLUno với PC thông qua cổng USB trên mạch.**
 
   * Chuyển cầu nối trên jump J7 về vị trí cho phép nạp firmware qua cổng USB bằng bootloader (vị trí 1-2, gần phía Jack nguồn màu đen).
-     
+
   * Sau đó ấn nút Reset. Lúc này quan sát thấy sáng cả 2 led trên mạch.
 
 **2. Mở Arduino IDE trên PC**
@@ -137,7 +147,7 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (
     * Menu > File > Examples > 01.Basics > Blink
 
   * Sử dụng chức năng upload (Menu -> Sketch -> Upload) để biên dịch chương trình và nạp firmware xuống mạch VBLUno.
-     
+
   * Nếu biên dịch và nạp thành công, bạn sẽ nhận được thông báo “Device programmed”
 
   * Chuyển cầu nối trên jump J7 về vị trí cho phép chạy Application (vị trí 2-3, gần phía cổng USB)
@@ -226,44 +236,53 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 
 ### 1. Install driver for chip CP210x – USB to UART
 
-* If you installed, you can pass this step
+* You can skip this step if the driver has been installed before.
 
 * Download suitable drivers at [HERE](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx) and then install
           
+* If you are using Linux, you don't need driver. But you need to make an udev rule to tell the system to change permission on "USB to UART" device. Create a file _90-arduino-usb0.rules_ with this content:
+
+```
+# Set owner "user" for Serial-to-USB device
+SUBSYSTEM=="tty", KERNEL=="ttyUSB0", OWNER="user"
+SUBSYSTEM=="tty", KERNEL=="ttyACM0", OWNER="user"
+SUBSYSTEM=="tty", KERNEL=="ttyACM1", OWNER="user"
+SUBSYSTEM=="tty", KERNEL=="ttyACM2", OWNER="user"
+```
+
+Replace _user_ with your Linux username and copy to _/etc/udev/rules.d/_
+
+```sh
+sudo cp 90-arduino-usb0.rules /etc/udev/rules.d/
+sudo udevadm control --reload
+```
 
 ### 2. Install Arduino IDE
 
-* If you installed, you can pass this step
+* You can skip this step if the Arduino IDE has been installed before.
 
 * Download suitable software at [HERE](http://arduino.cc/en/Main/Software) and then install.
 
-* Note: If you are using a Linux OS (MacOSX), you need to run Arduino IDE with root permission. This can help Arduino can open serial ports to upload firmware for VBLUno kit.
-    * Open Terminal (Ctrl + Alt + T)
-    * Moving  to directory which is already installed  Arduino by using “cd” command.
-                       For example: cd /home/mrABC/arduino-1.6.10
-    * Open Arduino IDE by “sudo” command:  sudo ./aduino
-
-
 ### 3. Install packages of VBLUno board for Arduino IDE
-You can install by one of two methods following
+You can install with one of two following methods:
 
 **_Method 1: Install online_**
 
   * Open Arduino IDE, at File,select "Preferences", add the following line to "Additional Boards Manager URLs": https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json
   (You can add multiple URLs, separating them with commas)
-     
+
   * Install the "VNGIoTLab VBLUno nRF51822 Boards" add-on via Boards Manager
     * From menu bar: Tools -> Board -> Boards Manager ...
     * Select VNGIoTLab VBLUno nRF51822 Boards and then click  Install
 
 **_Method 2: Install offline_**
 
-  * You should be sured Arduino IDE cannot be opened while install offline.
-     
+  * You should be sure that Arduino IDE is not opened while installing offline.
+
   * Download suitable softwares for OS: 
     * [For Windows](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Windows)
     * [For Linux](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Linux)
-	* [For MacOSX](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Mac)
+    * [For MacOSX](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Setup_Offline/Mac)
 	
   * Extract and run setup file
     * Windows: Setup_VBLUno_Windows.exe
@@ -271,29 +290,29 @@ You can install by one of two methods following
     
 `cd Setup_Offline_VBLUno_Linux_xxx`
 
-`sudo chmod 777 Setup_VBLUno_Linux`
+`chmod a+x Setup_VBLUno_Linux`
 
-`sudo ./Setup_VBLUno_Linux` 
+`./Setup_VBLUno_Linux` 
 
-   * You have to wait until the program announce “The installation was successful” 
+  * You have to wait until the program announces “The installation was successful”
   
   * Note: Preferences->Additional Boards Manager URLs always has this content (You can add multiple URLs, separating them with commas):
   `https://raw.githubusercontent.com/VNGIoTLab/Arduino_VBLUno_nRF51822/master/package_vngiotlab_vbluno_index.json`
 
 ## Bootloaders
 	
-* Bootloader helps Arduino IDE can upload firmware for VBLUno boards via serial ports.  VBLUno boards are sold , bootloaders are preloaded. **_Normally, you can skip this step._**
+* Bootloader helps Arduino IDE upload firmware to VBLUno boards via serial ports.  VBLUno boards sold on the market already includes bootloaders. **_Normally, you can skip this step._**
 
-* In the folder is named "VBLUno_nRF51822_board\bootloader", it contains bootloader_38400.hex and  source code.
+* In the "VBLUno_nRF51822_board\bootloader" folder, there are bootloader_38400.hex and its source code.
 
-* To load bootloader, connect the board with your PC, using a CMSIS-DAP module via SWD interface (J5), it will create a virtual disk (MBED), drag and drop bootloader.hex into this disk.
+* To load bootloader, connect the board with your PC, use a CMSIS-DAP module via SWD interface (J5), it will create a virtual disk (MBED). Drag and drop bootloader.hex into this disk.
 
 ## How to play
 
 **1. Connect VBLUno board to PC via USB port**
 
-  * Switch bridge at jump J7 to position allow to upload firmware through serial ports (USB ports on VBLUno boards) by bootloaders (position 1-2, near black Power jack).
-     
+  * Switch bridge at jump J7 to the position which allows to upload firmware via serial ports (USB ports on VBLUno boards) by bootloaders (position 1-2, near black Power jack).
+
   * Then press Reset button. At this time, two Leds on board are lighting up.
 
 **2. Open Arduino IDE**
@@ -304,7 +323,7 @@ You can install by one of two methods following
     * Menu > Tools > Board > VBLUno_V1_nRF51822_32KB(v1.0.4)
 
   * Select the serial port of VBLUno board:
-    * Menu > Tools > Port > [you board serial port name]
+    * Menu > Tools > Port > [your board's serial port name]
 
 **4. Blink**
 
@@ -312,7 +331,7 @@ You can install by one of two methods following
     * Menu > File > Examples > 01.Basics > Blink
 
   * Use the upload icon to load the sketch to your board.
-     
+
   * If it is compiled and uploaded successfully, you will be received the annoucement  “Device programmed”
   
   * Switch bridge at jump J7 to position allow to run Application (position 2-3, near USB port).

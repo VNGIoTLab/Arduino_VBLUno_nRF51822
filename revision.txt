@@ -1,6 +1,7 @@
 ------------------------------------------------------------------------------------
 * 2.0.3:
 - Disable UART hardware flow control feature to be compatible with mbed Online Compiler.
+- Do not need to install and run Arduino IDE with root permission
 
 ------------------------------------------------------------------------------------
 * 2.0.2:

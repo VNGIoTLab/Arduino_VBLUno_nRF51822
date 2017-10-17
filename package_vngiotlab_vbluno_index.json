@@ -16,8 +16,8 @@
 					"category": "VNGIoTLab",
 					"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.3/VBLUno_nRF51822_board-203.zip",
 					"archiveFileName": "VBLUno_nRF51822_board-203.zip",
-					"checksum": "SHA-256:39d8c8f1d66afc7201b5027c4109f556495f40c46f9427e1e4e2d0e4b755dddc",
-					"size": "5624671",
+					"checksum": "SHA-256:f5b47ac782c70f656c46ca8cde79965649bfb7c7f104370a53f82f11f475f978",
+					"size": "5624675",
 					"boards": [
 						{
 							"name": "VBLUno51_nRF51822_DAPLink(v1.0.2)"
@@ -40,7 +40,7 @@
 						{
 							"packager": "VNGIoTLab",
 							"name": "flashvbluno51",
-							"version": "1.0.0"
+							"version": "1.0.1"
 						}
 					]
 				},
@@ -235,6 +235,33 @@
 							"archiveFileName": "flashvbluno51-1.0.0-linux-001.zip",
 							"checksum": "SHA-256:B55E1F424E947299F2884439CB9CFDC01BAEB38789D4B6BB6CF037AC8BEA40D7",
 							"size": "3454187"
+						}
+					]
+				},
+				{
+					"name": "flashvbluno51",
+					"version": "1.0.1",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.3/flashvbluno51-1.0.1-001.zip",
+							"archiveFileName": "flashvbluno51-1.0.1-001.zip",
+							"checksum": "SHA-256:8902d87da26224a4c8dc78da2494c206cc773b705698b0f7d4fa88cd81c2b32f",
+							"size": "4311559"
+						},
+						{
+							"host": "i686-linux-gnu",
+							"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.3/flashvbluno51-1.0.1-linux-001.zip",
+							"archiveFileName": "flashvbluno51-1.0.1-linux-001.zip",
+							"checksum": "SHA-256:d5424df4772a8cca6ef5a378d580209b994377044ca5ee5c0bfd77f86089c1bd",
+							"size": "3484710"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.3/flashvbluno51-1.0.1-linux-001.zip",
+							"archiveFileName": "flashvbluno51-1.0.1-linux-001.zip",
+							"checksum": "SHA-256:d5424df4772a8cca6ef5a378d580209b994377044ca5ee5c0bfd77f86089c1bd",
+							"size": "3484710"
 						}
 					]
 				}

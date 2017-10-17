@@ -16,8 +16,8 @@
 					"category": "VNGIoTLab",
 					"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.3/VBLUno_nRF51822_board-203.zip",
 					"archiveFileName": "VBLUno_nRF51822_board-203.zip",
-					"checksum": "SHA-256:5b915c87eb6a203be38410a094cc26af74ca4769d1baef6a0678deabd4655a89",
-					"size": "5624709",
+					"checksum": "SHA-256:39d8c8f1d66afc7201b5027c4109f556495f40c46f9427e1e4e2d0e4b755dddc",
+					"size": "5624671",
 					"boards": [
 						{
 							"name": "VBLUno51_nRF51822_DAPLink(v1.0.2)"

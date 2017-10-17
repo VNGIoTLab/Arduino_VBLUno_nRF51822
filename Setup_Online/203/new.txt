@@ -1,3 +1,7 @@
 - Disable UART hardware flow control feature to be compatible with mbed Online Compiler.
+Need to upgrade DAPLink firmware to "fw_daplink_vbluno51_release_1.0.1.bin" or later version.
+See more at https://vngiotlab.github.io/vbluno/vi/mydoc_doc_daplink.html
+or https://vngiotlab.github.io/vbluno/vi/mydoc_doc_daplink_vi.html
+
 
 - Do not need to install and run Arduino IDE with root permission

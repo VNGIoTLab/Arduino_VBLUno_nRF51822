@@ -8,6 +8,12 @@
 
 ### v2.0.3
 
+- Bỏ tính năng HWFC của UART để tương thích với mbed Online Compiler
+- KHÔNG cài đặt dưới quyền root
+
+* Tải file "`Setup_Offline_VBLUno_Linux_203.zip"` tại [LINK203](http://www.mediafire.com/file/him6daqrcox8m4x/Setup_Offline_VBLUno_Linux_203.zip)  
+
+
 ### v2.0.2
 
 * Sửa lỗi Serial khi không cắm nguồn từ cổng USB.
@@ -41,6 +47,11 @@
 ## English
 
 ### v2.0.3
+
+- Disable UART HWFC feature to be compatible with mbed Online Compiler
+- DO NOT install with root permission
+
+* Download file "`Setup_Offline_VBLUno_Linux_203.zip"` at [LINK203](http://www.mediafire.com/file/him6daqrcox8m4x/Setup_Offline_VBLUno_Linux_203.zip)  
 
 ### v2.0.2
 

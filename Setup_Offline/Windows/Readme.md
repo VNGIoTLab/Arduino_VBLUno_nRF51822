@@ -8,6 +8,10 @@
 
 ### v2.0.3
 
+- Bỏ tính năng HWFC của UART để tương thích với mbed Online Compiler
+- KHÔNG cài đặt dưới quyền root
+* Tải file "`Setup_Offline_VBLUno_Windows_203.zip"` tại [LINK203](http://www.mediafire.com/file/s55sys8d7o10a34/Setup_Offline_VBLUno_Windows_203.zip)
+
 ### v2.0.2
 * Fix serial bug
 * Tải file "`Setup_Offline_VBLUno_Windows_202.zip"` tại [LINK202](http://www.mediafire.com/file/dxuaxav4f2u89oa/Setup_Offline_VBLUno_Windows_202.zip)
@@ -28,6 +32,10 @@ Chạy file thực thi `Setup_VBLUno_Windows.exe` để cài đặt các gói h�
 ## English:
 
 ### v2.0.3
+
+- Disable UART HWFC feature to be compatible with mbed Online Compiler
+- DO NOT install with root permission
+* Download file "`Setup_Offline_VBLUno_Windows_203.zip"` at [LINK203](http://www.mediafire.com/file/s55sys8d7o10a34/Setup_Offline_VBLUno_Windows_203.zip)
 
 ### v2.0.2
 * Fix serial bug

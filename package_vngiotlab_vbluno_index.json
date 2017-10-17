@@ -1,6 +1,6 @@
 {
 	"packages": [
-		{
+			{
 			"name": "VNGIoTLab",
 			"maintainer": "VNGIoTLab",
 			"websiteURL": "http://iotviet.com.vn",
@@ -9,7 +9,42 @@
 				"online": "https://vngiotlab.github.io/vbluno/"
 			},
 			"platforms": [
-        {
+				{
+					"name": "VNGIoTLab VBLUno nRF51822 Boards",
+					"architecture": "nRF51822",
+					"version": "2.0.3",
+					"category": "VNGIoTLab",
+					"url": "https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/releases/download/2.0.3/VBLUno_nRF51822_board-203.zip",
+					"archiveFileName": "VBLUno_nRF51822_board-203.zip",
+					"checksum": "SHA-256:5b915c87eb6a203be38410a094cc26af74ca4769d1baef6a0678deabd4655a89",
+					"size": "5624709",
+					"boards": [
+						{
+							"name": "VBLUno51_nRF51822_DAPLink(v1.0.2)"
+						},
+						{
+							"name": "VBLUno_V1_nRF51822_32KB(v1.0.4)"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "VNGIoTLab",
+							"name": "arm-none-eabi-gcc",
+							"version": "4.8.3-2014q1"
+						},
+						{
+							"packager": "VNGIoTLab",
+							"name": "nrfutil",
+							"version": "0.5.1"
+						},
+						{
+							"packager": "VNGIoTLab",
+							"name": "flashvbluno51",
+							"version": "1.0.0"
+						}
+					]
+				},
+        		{
 					"name": "VNGIoTLab VBLUno nRF51822 Boards",
 					"architecture": "nRF51822",
 					"version": "2.0.2",

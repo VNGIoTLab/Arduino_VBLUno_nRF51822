@@ -1,0 +1,1 @@
+- Disable UART hardware flow control feature to be compatible with mbed Online Compiler.

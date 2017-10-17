@@ -6,6 +6,8 @@
 *** 
 ## Tiếng Việt
 
+### v2.0.3
+
 ### v2.0.2
 
 * Sửa lỗi Serial khi không cắm nguồn từ cổng USB.
@@ -37,6 +39,8 @@
 
 ***
 ## English
+
+### v2.0.3
 
 ### v2.0.2
 

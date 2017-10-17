@@ -14,7 +14,7 @@ These are packages that help to use Arduino IDE for VBLUno_nRF51822 BLE boards (
 
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
 
-2. Phiên bản hiện tại: v2.0.2 (Hỗ trợ VBLUno51).
+2. Phiên bản hiện tại: v2.0.3 (Hỗ trợ VBLUno51).
 	
 	Phiên bản: v1.0.4 (Bổ sung gói cài đặt online cho MacOSX). Trước khi nâng cấp phiên bản, bạn cần remove phiên bản cũ hơn.
 
@@ -198,7 +198,7 @@ Các tài liệu này được công bố dạng mã nguồn mở nhằm mục �
 
 1. [TUTORIALS](https://github.com/VNGIoTLab/Arduino_VBLUno_nRF51822/tree/master/Tutorial)
 
-2. Current version: v2.0.2 (Support for the VBLUno51 board).
+2. Current version: v2.0.3 (Support for the VBLUno51 board).
 
 	Version: v1.0.4 (Add installation for MacOSX). Before update version, you need to remove old versions.
 
